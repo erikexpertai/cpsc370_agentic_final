@@ -1,0 +1,1593 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00037",
+  "operation": "repair_schedule",
+  "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+  "semester": "Fall 2027 (practice)",
+  "payload": {
+    "current_schedule": [
+      {
+        "course_id": "POSC-313-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "DT-103"
+      },
+      {
+        "course_id": "PCST-150-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "DT-103"
+      },
+      {
+        "course_id": "POSC-342-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "AF-206A"
+      },
+      {
+        "course_id": "POSC-311-01",
+        "timeslot_id": "TR-1130",
+        "room_id": "AF-206A"
+      },
+      {
+        "course_id": "HUM-103-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "GER-201-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "SOC-101-03",
+        "timeslot_id": "TR-1130",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ENG-319-02",
+        "timeslot_id": "M-1600",
+        "room_id": "MC-227"
+      },
+      {
+        "course_id": "SPAN-376-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "HLHM-100-01",
+        "timeslot_id": "TR-1130",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "JPN-349-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "POSC-374-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "SPAN-201-07",
+        "timeslot_id": "MW-1430",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "AFST-101-01",
+        "timeslot_id": "M-1600",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "AMST-444T-01",
+        "timeslot_id": "W-1900",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ART-123-02",
+        "timeslot_id": "MW-0830",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "CHIN-101-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "MC-167"
+      },
+      {
+        "course_id": "ENG-103-04",
+        "timeslot_id": "MWF-0800",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ENG-103-15",
+        "timeslot_id": "MWF-1000",
+        "room_id": "DT-102"
+      },
+      {
+        "course_id": "ENG-208-03",
+        "timeslot_id": "MWF-1000",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ENG-357-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "ENG-519-01",
+        "timeslot_id": "M-1900",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "FREN-101-02",
+        "timeslot_id": "MWF-0900",
+        "room_id": "MC-168"
+      },
+      {
+        "course_id": "JPN-201-01",
+        "timeslot_id": "MWF-1000",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "POSC-378B-01",
+        "timeslot_id": "TR-0830",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "REL-309-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "REL-310-01",
+        "timeslot_id": "MWF-1100",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "REL-311-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "MC-167"
+      },
+      {
+        "course_id": "SPAN-101-11",
+        "timeslot_id": "MWF-0900",
+        "room_id": "MC-227"
+      },
+      {
+        "course_id": "SPAN-102-07",
+        "timeslot_id": "MWF-1000",
+        "room_id": "DT-104"
+      },
+      {
+        "course_id": "WLC-300-01",
+        "timeslot_id": "TR-1300",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "WS-500A-01",
+        "timeslot_id": "R-1600",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "POSC-310-01",
+        "timeslot_id": "T-1600",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "SPAN-101-21",
+        "timeslot_id": "F-0900",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "ENG-103-21",
+        "timeslot_id": "F-1300",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ENG-103-22",
+        "timeslot_id": "F-1300",
+        "room_id": "DT-102"
+      },
+      {
+        "course_id": "SPAN-102-15",
+        "timeslot_id": "F-1300",
+        "room_id": "DT-104"
+      }
+    ],
+    "disruptions": [
+      {
+        "type": "room_capacity_change",
+        "room_id": "LL-B12",
+        "new_capacity": 18
+      }
+    ],
+    "courses": [
+      {
+        "course_id": "AFST-101-01",
+        "title": "Intro to Africana Studies",
+        "instructor_id": "FAC-FE64A3",
+        "expected_enrollment": 8,
+        "required_features": [],
+        "preferred_times": [
+          "M-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "AMST-444T-01",
+        "title": "Asian American Film",
+        "instructor_id": "FAC-EA38D5",
+        "expected_enrollment": 5,
+        "required_features": [],
+        "preferred_times": [
+          "W-1900"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ART-123-02",
+        "title": "Painting and Mark Making",
+        "instructor_id": "FAC-9219C8",
+        "expected_enrollment": 15,
+        "required_features": [],
+        "preferred_times": [
+          "MW-0830"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "CHIN-101-01",
+        "title": "Elementary Chinese I",
+        "instructor_id": "FAC-B2589F",
+        "expected_enrollment": 12,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-0900"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-103-04",
+        "title": "Semnr in Rhetoric & Composit",
+        "instructor_id": "FAC-BDF0D3",
+        "expected_enrollment": 17,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-0800"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-103-15",
+        "title": "Semnr in Rhetoric & Composit",
+        "instructor_id": "FAC-F02387",
+        "expected_enrollment": 18,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1000"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-103-21",
+        "title": "Semnr in Rhetoric & Composit",
+        "instructor_id": "FAC-77B35F",
+        "expected_enrollment": 15,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1200"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-103-22",
+        "title": "Semnr in Rhetoric & Composit",
+        "instructor_id": "FAC-188AC6",
+        "expected_enrollment": 18,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1200"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-208-03",
+        "title": "Composing the Self",
+        "instructor_id": "FAC-D8CA3F",
+        "expected_enrollment": 17,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1000"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-319-02",
+        "title": "Digital Magazine Wkshp Journ",
+        "instructor_id": "FAC-275B48",
+        "expected_enrollment": 6,
+        "required_features": [],
+        "preferred_times": [],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-357-01",
+        "title": "Topics in Humanomics",
+        "instructor_id": "FAC-395844",
+        "expected_enrollment": 5,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "ENG-519-01",
+        "title": "Workshop in Creative Nonfictio",
+        "instructor_id": "FAC-6DBA09",
+        "expected_enrollment": 12,
+        "required_features": [],
+        "preferred_times": [
+          "M-1900"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "FREN-101-02",
+        "title": "Elementary French I",
+        "instructor_id": "FAC-46ED54",
+        "expected_enrollment": 15,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-0900"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "GER-201-01",
+        "title": "Intermediate German I",
+        "instructor_id": "FAC-FA61F3",
+        "expected_enrollment": 21,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "HLHM-100-01",
+        "title": "Intro Seminr Health Humanities",
+        "instructor_id": "FAC-CD2C2F",
+        "expected_enrollment": 19,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1130"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "HUM-103-01",
+        "title": "Introduction to Ethnic Studies",
+        "instructor_id": "FAC-DD6320",
+        "expected_enrollment": 30,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-0900"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "JPN-201-01",
+        "title": "Intermediate Japanese I",
+        "instructor_id": "FAC-F75190",
+        "expected_enrollment": 16,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1000"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "JPN-349-01",
+        "title": "Adv Japanese: Lit/Cinema",
+        "instructor_id": "FAC-C8F363",
+        "expected_enrollment": 19,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "PCST-150-01",
+        "title": "Intro to Peace Studies",
+        "instructor_id": "FAC-2FD1A8",
+        "expected_enrollment": 34,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "POSC-310-01",
+        "title": "The Presidency",
+        "instructor_id": "FAC-207A86",
+        "expected_enrollment": 24,
+        "required_features": [],
+        "preferred_times": [
+          "T-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "POSC-311-01",
+        "title": "Congress",
+        "instructor_id": "FAC-472E2B",
+        "expected_enrollment": 31,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1130"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "POSC-313-01",
+        "title": "The Supreme Court",
+        "instructor_id": "FAC-3DCFEA",
+        "expected_enrollment": 35,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "POSC-342-01",
+        "title": "Const. Law: Institutions & Gov",
+        "instructor_id": "FAC-3DCFEA",
+        "expected_enrollment": 31,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "POSC-374-01",
+        "title": "Environmental Politics/Policy",
+        "instructor_id": "FAC-1BDD91",
+        "expected_enrollment": 19,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "POSC-378B-01",
+        "title": "Behavioral Poli/Public Policy",
+        "instructor_id": "FAC-13E7F5",
+        "expected_enrollment": 13,
+        "required_features": [],
+        "preferred_times": [
+          "TR-0830"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "REL-309-01",
+        "title": "Religion, Knowledge & Evil",
+        "instructor_id": "FAC-807A54",
+        "expected_enrollment": 6,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "REL-310-01",
+        "title": "From Socrates to Aquinas",
+        "instructor_id": "FAC-216D32",
+        "expected_enrollment": 5,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1100"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "REL-311-01",
+        "title": "Descartes to Kierkegaard",
+        "instructor_id": "FAC-7565D3",
+        "expected_enrollment": 5,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "SOC-101-03",
+        "title": "Introduction to Sociology",
+        "instructor_id": "FAC-37BAF9",
+        "expected_enrollment": 28,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1130"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "SPAN-101-11",
+        "title": "Elementary Spanish I",
+        "instructor_id": "FAC-D07709",
+        "expected_enrollment": 17,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-0900"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "SPAN-101-21",
+        "title": "Elementary Spanish I",
+        "instructor_id": "FAC-DE17F8",
+        "expected_enrollment": 19,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1200"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "SPAN-102-07",
+        "title": "Elementary Spanish II",
+        "instructor_id": "FAC-C80440",
+        "expected_enrollment": 18,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1000"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "SPAN-102-15",
+        "title": "Elementary Spanish II",
+        "instructor_id": "FAC-2D7B8D",
+        "expected_enrollment": 18,
+        "required_features": [],
+        "preferred_times": [
+          "MWF-1200"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "SPAN-201-07",
+        "title": "Intermediate Spanish I",
+        "instructor_id": "FAC-2D7B8D",
+        "expected_enrollment": 19,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "SPAN-376-01",
+        "title": "Lit & Culture of Spain II",
+        "instructor_id": "FAC-6AFBE1",
+        "expected_enrollment": 6,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "WLC-300-01",
+        "title": "Wrld Lang, Srvce Learn, Civic",
+        "instructor_id": "FAC-2D7B8D",
+        "expected_enrollment": 16,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "WS-500A-01",
+        "title": "Hist Approaches to War & Soc",
+        "instructor_id": "FAC-1BAAD3",
+        "expected_enrollment": 9,
+        "required_features": [],
+        "preferred_times": [
+          "R-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      }
+    ],
+    "timeslots": [
+      {
+        "timeslot_id": "MWF-0800",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "08:00",
+        "end": "08:50"
+      },
+      {
+        "timeslot_id": "MWF-0900",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "timeslot_id": "MWF-1000",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "10:00",
+        "end": "10:50"
+      },
+      {
+        "timeslot_id": "MWF-1100",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "11:00",
+        "end": "11:50"
+      },
+      {
+        "timeslot_id": "MWF-1200",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "12:00",
+        "end": "12:50"
+      },
+      {
+        "timeslot_id": "MWF-1300",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "13:00",
+        "end": "13:50"
+      },
+      {
+        "timeslot_id": "MWF-1400",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "14:00",
+        "end": "14:50"
+      },
+      {
+        "timeslot_id": "MW-0830",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "08:30",
+        "end": "09:45"
+      },
+      {
+        "timeslot_id": "TR-0830",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "08:30",
+        "end": "09:45"
+      },
+      {
+        "timeslot_id": "MW-1000",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "10:00",
+        "end": "11:15"
+      },
+      {
+        "timeslot_id": "TR-1000",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "10:00",
+        "end": "11:15"
+      },
+      {
+        "timeslot_id": "MW-1130",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "11:30",
+        "end": "12:45"
+      },
+      {
+        "timeslot_id": "TR-1130",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "11:30",
+        "end": "12:45"
+      },
+      {
+        "timeslot_id": "MW-1300",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "13:00",
+        "end": "14:15"
+      },
+      {
+        "timeslot_id": "TR-1300",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "13:00",
+        "end": "14:15"
+      },
+      {
+        "timeslot_id": "MW-1430",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "14:30",
+        "end": "15:45"
+      },
+      {
+        "timeslot_id": "TR-1430",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "14:30",
+        "end": "15:45"
+      },
+      {
+        "timeslot_id": "MW-1600",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "16:00",
+        "end": "17:15"
+      },
+      {
+        "timeslot_id": "TR-1600",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "16:00",
+        "end": "17:15"
+      },
+      {
+        "timeslot_id": "M-1600",
+        "days": [
+          "M"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "M-1900",
+        "days": [
+          "M"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "T-1600",
+        "days": [
+          "T"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "T-1900",
+        "days": [
+          "T"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "W-1600",
+        "days": [
+          "W"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "W-1900",
+        "days": [
+          "W"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "R-1600",
+        "days": [
+          "R"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "R-1900",
+        "days": [
+          "R"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "F-0900",
+        "days": [
+          "F"
+        ],
+        "start": "09:00",
+        "end": "11:50"
+      },
+      {
+        "timeslot_id": "F-1300",
+        "days": [
+          "F"
+        ],
+        "start": "13:00",
+        "end": "15:50"
+      }
+    ],
+    "rooms": [
+      {
+        "room_id": "AF-206A",
+        "capacity": 32,
+        "features": [],
+        "building": "AF",
+        "shared": true
+      },
+      {
+        "room_id": "AF-207",
+        "capacity": 48,
+        "features": [],
+        "building": "AF",
+        "shared": true
+      },
+      {
+        "room_id": "AF-211",
+        "capacity": 48,
+        "features": [],
+        "building": "AF",
+        "shared": true
+      },
+      {
+        "room_id": "BK-106",
+        "capacity": 40,
+        "features": [],
+        "building": "BK",
+        "shared": true
+      },
+      {
+        "room_id": "BK-202",
+        "capacity": 24,
+        "features": [],
+        "building": "BK",
+        "shared": true,
+        "unavailable_times": [
+          "TR-1600"
+        ]
+      },
+      {
+        "room_id": "BK-205",
+        "capacity": 32,
+        "features": [],
+        "building": "BK",
+        "shared": true
+      },
+      {
+        "room_id": "BK-210",
+        "capacity": 40,
+        "features": [],
+        "building": "BK",
+        "shared": true
+      },
+      {
+        "room_id": "DH-103",
+        "capacity": 58,
+        "features": [],
+        "building": "DH",
+        "shared": true
+      },
+      {
+        "room_id": "DH-107",
+        "capacity": 20,
+        "features": [],
+        "building": "DH",
+        "shared": true
+      },
+      {
+        "room_id": "DT-101",
+        "capacity": 19,
+        "features": [],
+        "building": "DT",
+        "shared": true
+      },
+      {
+        "room_id": "DT-102",
+        "capacity": 18,
+        "features": [],
+        "building": "DT",
+        "shared": true
+      },
+      {
+        "room_id": "DT-103",
+        "capacity": 36,
+        "features": [],
+        "building": "DT",
+        "shared": true
+      },
+      {
+        "room_id": "DT-104",
+        "capacity": 18,
+        "features": [],
+        "building": "DT",
+        "shared": true
+      },
+      {
+        "room_id": "LL-B12",
+        "capacity": 18,
+        "features": [],
+        "building": "LL",
+        "shared": false
+      },
+      {
+        "room_id": "LL-B17",
+        "capacity": 25,
+        "features": [],
+        "building": "LL",
+        "shared": false
+      },
+      {
+        "room_id": "MC-167",
+        "capacity": 30,
+        "features": [],
+        "building": "MC",
+        "shared": false
+      },
+      {
+        "room_id": "MC-168",
+        "capacity": 30,
+        "features": [],
+        "building": "MC",
+        "shared": false
+      },
+      {
+        "room_id": "MC-227",
+        "capacity": 22,
+        "features": [],
+        "building": "MC",
+        "shared": false
+      },
+      {
+        "room_id": "SC-003",
+        "capacity": 36,
+        "features": [],
+        "building": "SC",
+        "shared": true
+      },
+      {
+        "room_id": "SC-150",
+        "capacity": 187,
+        "features": [],
+        "building": "SC",
+        "shared": true
+      },
+      {
+        "room_id": "SC-220A",
+        "capacity": 18,
+        "features": [],
+        "building": "SC",
+        "shared": true
+      },
+      {
+        "room_id": "SC-220B",
+        "capacity": 20,
+        "features": [],
+        "building": "SC",
+        "shared": true
+      },
+      {
+        "room_id": "SH-101",
+        "capacity": 20,
+        "features": [],
+        "building": "SH",
+        "shared": true
+      },
+      {
+        "room_id": "SH-102",
+        "capacity": 32,
+        "features": [],
+        "building": "SH",
+        "shared": true
+      },
+      {
+        "room_id": "SH-103",
+        "capacity": 28,
+        "features": [],
+        "building": "SH",
+        "shared": true
+      },
+      {
+        "room_id": "SH-201",
+        "capacity": 20,
+        "features": [],
+        "building": "SH",
+        "shared": true
+      },
+      {
+        "room_id": "SH-205",
+        "capacity": 24,
+        "features": [],
+        "building": "SH",
+        "shared": true
+      },
+      {
+        "room_id": "SH-206",
+        "capacity": 24,
+        "features": [],
+        "building": "SH",
+        "shared": true
+      },
+      {
+        "room_id": "WH-220",
+        "capacity": 32,
+        "features": [],
+        "building": "WH",
+        "shared": true
+      }
+    ],
+    "faculty_constraints": [
+      {
+        "instructor_id": "FAC-13E7F5",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-0830"
+        ]
+      },
+      {
+        "instructor_id": "FAC-188AC6",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1200"
+        ]
+      },
+      {
+        "instructor_id": "FAC-1BAAD3",
+        "unavailable_times": [],
+        "preferred_times": [
+          "R-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-1BDD91",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-207A86",
+        "unavailable_times": [],
+        "preferred_times": [
+          "T-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-216D32",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1100"
+        ]
+      },
+      {
+        "instructor_id": "FAC-275B48",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": []
+      },
+      {
+        "instructor_id": "FAC-2D7B8D",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1430",
+          "MWF-1200",
+          "TR-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-2FD1A8",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-37BAF9",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1130"
+        ]
+      },
+      {
+        "instructor_id": "FAC-395844",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-3DCFEA",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": [
+          "MW-1430",
+          "TR-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-46ED54",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-0900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-472E2B",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1130"
+        ]
+      },
+      {
+        "instructor_id": "FAC-6AFBE1",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": [
+          "MW-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-6DBA09",
+        "unavailable_times": [],
+        "preferred_times": [
+          "M-1900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-7565D3",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-77B35F",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1200"
+        ]
+      },
+      {
+        "instructor_id": "FAC-807A54",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-9219C8",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-0830"
+        ]
+      },
+      {
+        "instructor_id": "FAC-B2589F",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-0900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-BDF0D3",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-0800"
+        ]
+      },
+      {
+        "instructor_id": "FAC-C80440",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1000"
+        ]
+      },
+      {
+        "instructor_id": "FAC-C8F363",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-CD2C2F",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1130"
+        ]
+      },
+      {
+        "instructor_id": "FAC-D07709",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-0900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-D8CA3F",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1000"
+        ]
+      },
+      {
+        "instructor_id": "FAC-DD6320",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-0900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-DE17F8",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1200"
+        ]
+      },
+      {
+        "instructor_id": "FAC-EA38D5",
+        "unavailable_times": [],
+        "preferred_times": [
+          "W-1900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-F02387",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1000"
+        ]
+      },
+      {
+        "instructor_id": "FAC-F75190",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MWF-1000"
+        ]
+      },
+      {
+        "instructor_id": "FAC-FA61F3",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": [
+          "MW-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-FE64A3",
+        "unavailable_times": [],
+        "preferred_times": [
+          "M-1600"
+        ]
+      }
+    ],
+    "global_constraints": [
+      {
+        "type": "cross_list_match",
+        "rule": "same_timeslot",
+        "owner": "Dodge College of Film and Media Arts",
+        "courses": [
+          {
+            "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+            "course_id": "AMST-444T-01"
+          },
+          {
+            "unit": "Dodge College of Film and Media Arts",
+            "course_id": "FS-444T-01"
+          }
+        ]
+      },
+      {
+        "type": "cross_list_match",
+        "rule": "same_timeslot",
+        "owner": "Argyros College of Business and Economics",
+        "courses": [
+          {
+            "unit": "Argyros College of Business and Economics",
+            "course_id": "ECON-357-01"
+          },
+          {
+            "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+            "course_id": "ENG-357-01"
+          },
+          {
+            "unit": "Schmid College of Science and Technology",
+            "course_id": "PHIL-357-01"
+          }
+        ]
+      },
+      {
+        "type": "cross_list_match",
+        "rule": "same_timeslot",
+        "owner": "Wilkinson College of Arts, Humanities, and Social Sciences",
+        "courses": [
+          {
+            "unit": "Schmid College of Science and Technology",
+            "course_id": "ENV-374-01"
+          },
+          {
+            "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+            "course_id": "POSC-374-01"
+          }
+        ]
+      },
+      {
+        "type": "cross_list_match",
+        "rule": "same_timeslot",
+        "owner": "Schmid College of Science and Technology",
+        "courses": [
+          {
+            "unit": "Schmid College of Science and Technology",
+            "course_id": "PHIL-309-01"
+          },
+          {
+            "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+            "course_id": "REL-309-01"
+          }
+        ]
+      },
+      {
+        "type": "cross_list_match",
+        "rule": "same_timeslot",
+        "owner": "Schmid College of Science and Technology",
+        "courses": [
+          {
+            "unit": "Schmid College of Science and Technology",
+            "course_id": "PHIL-310-01"
+          },
+          {
+            "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+            "course_id": "REL-310-01"
+          }
+        ]
+      },
+      {
+        "type": "cross_list_match",
+        "rule": "same_timeslot",
+        "owner": "Schmid College of Science and Technology",
+        "courses": [
+          {
+            "unit": "Schmid College of Science and Technology",
+            "course_id": "PHIL-311-01"
+          },
+          {
+            "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+            "course_id": "REL-311-01"
+          }
+        ]
+      },
+      {
+        "type": "blackout",
+        "days": [
+          "W"
+        ],
+        "start": "12:00",
+        "end": "13:00"
+      }
+    ],
+    "context": {
+      "unit_code": "CHSS",
+      "historical_source": "Derived from Chapman registrar export (Fall 2026); instructor IDs pseudonymized",
+      "notes": "preferred_times reflect each section's historical meeting pattern snapped to the canonical grid"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00912",
+  "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+  "status": "completed",
+  "result": {
+    "decision": "accept",
+    "impact_score": 0.1,
+    "alternatives": [],
+    "reason": "POSC-311-01 at TR-1130 in BK-205 violates no hard constraints."
+  },
+  "warnings": [],
+  "errors": []
+}

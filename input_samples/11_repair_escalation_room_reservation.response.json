@@ -1,0 +1,210 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00916",
+  "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+  "status": "completed",
+  "result": {
+    "schedule": [
+      {
+        "course_id": "POSC-313-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "DT-103"
+      },
+      {
+        "course_id": "PCST-150-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "DT-103"
+      },
+      {
+        "course_id": "POSC-342-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "AF-206A"
+      },
+      {
+        "course_id": "HUM-103-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "GER-201-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "SOC-101-03",
+        "timeslot_id": "TR-1130",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "POSC-310-01",
+        "timeslot_id": "T-1600",
+        "room_id": "BK-202"
+      },
+      {
+        "course_id": "ENG-319-02",
+        "timeslot_id": "M-1600",
+        "room_id": "MC-227"
+      },
+      {
+        "course_id": "SPAN-376-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "HLHM-100-01",
+        "timeslot_id": "TR-1130",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "JPN-349-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "POSC-374-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "SPAN-101-21",
+        "timeslot_id": "MWF-1200",
+        "room_id": "DT-101"
+      },
+      {
+        "course_id": "SPAN-201-07",
+        "timeslot_id": "MW-1430",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "AFST-101-01",
+        "timeslot_id": "M-1600",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ART-123-02",
+        "timeslot_id": "MW-0830",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "CHIN-101-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "MC-167"
+      },
+      {
+        "course_id": "ENG-103-04",
+        "timeslot_id": "MWF-0800",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ENG-103-15",
+        "timeslot_id": "MWF-1000",
+        "room_id": "DT-102"
+      },
+      {
+        "course_id": "ENG-103-21",
+        "timeslot_id": "MWF-1200",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ENG-103-22",
+        "timeslot_id": "MWF-1200",
+        "room_id": "DT-102"
+      },
+      {
+        "course_id": "ENG-208-03",
+        "timeslot_id": "MWF-1000",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "ENG-357-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "ENG-519-01",
+        "timeslot_id": "M-1900",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "FREN-101-02",
+        "timeslot_id": "MWF-0900",
+        "room_id": "MC-168"
+      },
+      {
+        "course_id": "JPN-201-01",
+        "timeslot_id": "MWF-1000",
+        "room_id": "LL-B17"
+      },
+      {
+        "course_id": "POSC-378B-01",
+        "timeslot_id": "TR-0830",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "REL-309-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "REL-310-01",
+        "timeslot_id": "MWF-1100",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "REL-311-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "MC-167"
+      },
+      {
+        "course_id": "SPAN-101-11",
+        "timeslot_id": "MWF-0900",
+        "room_id": "MC-227"
+      },
+      {
+        "course_id": "SPAN-102-07",
+        "timeslot_id": "MWF-1000",
+        "room_id": "DT-104"
+      },
+      {
+        "course_id": "SPAN-102-15",
+        "timeslot_id": "MWF-1200",
+        "room_id": "DT-104"
+      },
+      {
+        "course_id": "WLC-300-01",
+        "timeslot_id": "TR-1300",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "WS-500A-01",
+        "timeslot_id": "R-1600",
+        "room_id": "LL-B12"
+      },
+      {
+        "course_id": "AMST-444T-01",
+        "timeslot_id": "MWF-0800",
+        "room_id": "AF-202"
+      },
+      {
+        "course_id": "POSC-311-01",
+        "timeslot_id": "TR-1130",
+        "room_id": "BK-205"
+      }
+    ],
+    "changes": [
+      {
+        "course_id": "POSC-311-01",
+        "old_timeslot_id": "TR-1130",
+        "old_room_id": "AF-206A",
+        "new_timeslot_id": "TR-1130",
+        "new_room_id": "BK-205",
+        "reason": "Original placement became infeasible."
+      }
+    ],
+    "change_count": 1,
+    "unresolved": [],
+    "summary": "Repaired with 1 change(s), 0 unresolved."
+  },
+  "warnings": [],
+  "errors": []
+}

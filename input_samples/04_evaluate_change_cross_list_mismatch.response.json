@@ -1,0 +1,14 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00914",
+  "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+  "status": "completed",
+  "result": {
+    "decision": "accept",
+    "impact_score": 0.0,
+    "alternatives": [],
+    "reason": "AMST-444T-01 at W-1900 in LL-B12 violates no hard constraints."
+  },
+  "warnings": [],
+  "errors": []
+}

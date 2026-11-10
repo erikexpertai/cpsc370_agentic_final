@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CPSC370 Final Project Specification v1.1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --crimson: #a50034; --ink: #1d1b19; --muted: #5f5a54; --sand: #f4f1ec; --line: #ddd7cf; --pink: #f8e6ea; }
+  @page { size: Letter; margin: 0.7in 0.85in 0.95in;
+    @bottom-left { content: "CPSC370 · AGENTIC AI SYSTEMS"; font: 7.5pt Inter, sans-serif; letter-spacing: .14em; color: #5f5a54; border-top: 1px solid #ddd7cf; vertical-align: top; padding-top: 6px; }
+    @bottom-right { content: "AGENTIC SCHEDULING CHALLENGE · SPECIFICATION v1.1 · " counter(page); font: 7.5pt Inter, sans-serif; letter-spacing: .14em; color: #5f5a54; border-top: 1px solid #ddd7cf; vertical-align: top; padding-top: 6px; }
+  }
+  * { box-sizing: border-box; }
+  html { background: #fff; }
+  body { margin: 0; color: var(--ink); font: 10.5pt/1.55 Inter, -apple-system, "Helvetica Neue", Arial, sans-serif; }
+  .footer { position: fixed; bottom: -0.6in; left: 0; right: 0; display: flex; justify-content: space-between;
+    border-top: 1px solid var(--line); padding-top: 6px; font-size: 7.5pt; letter-spacing: .14em; color: var(--muted); text-transform: uppercase; }
+  .hero { background: var(--crimson); color: #fff; padding: 26px 30px 30px; margin-bottom: 26px; }
+  .hero .kicker { font-size: 8.5pt; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; opacity: .95; }
+  .hero h1 { font: 700 28pt/1.12 "Source Serif 4", Georgia, serif; margin: 12px 0 0; }
+  .hero .ver { margin-top: 12px; font-size: 9pt; opacity: .9; }
+  h2 { font: 700 17pt/1.2 "Source Serif 4", Georgia, serif; color: var(--crimson); margin: 26px 0 10px; break-after: avoid; }
+  h3 { font-size: 8.5pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin: 18px 0 8px; break-after: avoid; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 26px 0 0; }
+  p { margin: 0 0 10px; }
+  ul, ol { margin: 0 0 10px; padding-left: 22px; }
+  li { margin: 2px 0; }
+  code { font: 9pt "IBM Plex Mono", Menlo, monospace; color: var(--crimson); }
+  pre { background: var(--sand); padding: 14px 16px; font: 8.6pt/1.5 "IBM Plex Mono", Menlo, monospace; white-space: pre-wrap; margin: 0 0 12px; break-inside: avoid; }
+  pre code { color: var(--ink); font-size: inherit; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0 14px; font-size: 9.5pt; break-inside: auto; }
+  thead { display: table-header-group; }
+  tr { break-inside: avoid; }
+  th { background: var(--crimson); color: #fff; text-align: left; font-weight: 600; padding: 7px 10px; }
+  td { padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td:first-child { font-weight: 600; }
+  td.plain { font-weight: 400; }
+  .units { background: var(--sand); padding: 12px 18px; columns: 2; column-gap: 24px; }
+  .units ol { margin: 0; }
+  .callout { background: var(--pink); color: #5c0019; padding: 12px 16px; margin: 12px 0; break-inside: avoid; }
+  .note { background: var(--sand); padding: 12px 16px; margin: 12px 0; break-inside: avoid; }
+  .tag { display: inline-block; font: 700 7pt Inter, sans-serif; letter-spacing: .12em; text-transform: uppercase;
+    background: var(--crimson); color: #fff; padding: 2px 6px; border-radius: 3px; vertical-align: middle; margin-left: 8px; position: relative; top: -2px; }
+  .tag.upd { background: #fff; color: var(--crimson); border: 1px solid var(--crimson); }
+  .flow { text-align: center; margin: 8px 0 14px; break-inside: avoid; }
+  .flow .box { display: inline-block; background: #111; color: #fff; font-weight: 600; padding: 7px 18px; }
+  .flow .arrow { color: var(--crimson); margin: 4px 0; }
+  .flow .agent { border: 1.5px solid var(--crimson); padding: 10px 14px; width: 62%; margin: 0 auto; }
+  .flow .agent .t { color: var(--crimson); font-weight: 700; margin-bottom: 8px; }
+  .flow .agent div.s { background: var(--sand); text-align: left; padding: 5px 10px; margin: 5px 0; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .small { font-size: 9pt; color: var(--muted); }
+  .pb { break-before: page; }
+  .ms td:first-child { color: var(--crimson); width: 22%; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="kicker">CPSC370 · Agentic AI Systems · Final Project</div>
+  <h1>Chapman Agentic<br>Scheduling Challenge</h1>
+  <div class="ver">Specification version 1.1 · November 2026</div>
+</div>
+
+<div class="note">
+  <b>What changed in v1.1.</b> Version 1.1 adds everything needed to work with the
+  <b>provost orchestrator</b>, the university coordinator your agent will talk to.
+  The required <code>run_agent(request) -&gt; dict</code> interface, the three operations, and the
+  response formats are <b>unchanged</b>. A v1.0-compliant agent stays compliant. The additions are:
+  <ul style="margin:6px 0 0">
+    <li>how your agent connects (<code>connect.py</code>, no server needed)</li>
+    <li>the local Docker practice environment</li>
+    <li>the full resource envelope included in every request</li>
+    <li>the new resource fields and constraint types</li>
+    <li>the disruption formats</li>
+    <li>time-overlap semantics</li>
+    <li>timeouts</li>
+    <li>how the provost measures your metrics</li>
+    <li>how historical evidence reaches your agent, and the <code>input_samples/</code> folder</li>
+  </ul>
+  Sections marked <span class="tag">New</span> or <span class="tag upd">Updated</span> carry these changes.
+  All code and data are in the course repository: <code>github.com/erikexpertai/cpsc370_agentic_final</code>.
+</div>
+
+<h2>Project Overview</h2>
+<p>In this project, each team will design an LLM-based scheduling agent for one of Chapman University's 11 schools and colleges.
+Your agent will receive a set of available meeting times and classroom allocations from an instructor-provided university scheduling
+coordinator, the <b>provost orchestrator</b>. Using those resources, your agent must create a feasible schedule for its academic unit, explain its
+choices, respond to proposed schedule changes, and repair its schedule when resources or constraints change.</p>
+<p>All 11 academic-unit agents will be integrated at the end of the semester with a common coordinator. The final system will therefore
+be a class-built multi-agent scheduling environment: each unit controls its own local scheduling decisions while the coordinator manages
+university-wide conflicts and requests changes.</p>
+<p>The project is intentionally designed so that strong programming is not required. You may use any contemporary LLM agent framework,
+a simple Python wrapper, prompt/configuration files, retrieval over historical schedule data, or a combination of approaches. What matters
+is whether your agent behaves correctly, uses evidence and constraints appropriately, and conforms exactly to the common interface
+described in this specification.</p>
+
+<hr>
+<h2>Academic Units</h2>
+<p>Each team will be assigned one of the following academic units. The <b>unit code</b> is what you pass to the connector. <span class="tag">New</span></p>
+<table>
+  <thead><tr><th style="width:9%">Code</th><th>Academic unit</th><th style="width:9%">Code</th><th>Academic unit</th></tr></thead>
+  <tbody>
+    <tr><td>SBE</td><td class="plain">Argyros College of Business and Economics</td><td>SENG</td><td class="plain">Fowler School of Engineering</td></tr>
+    <tr><td>CES</td><td class="plain">Attallah College of Educational Studies</td><td>SOL</td><td class="plain">Fowler School of Law</td></tr>
+    <tr><td>COPA</td><td class="plain">College of Performing Arts</td><td>COS</td><td class="plain">Schmid College of Science and Technology</td></tr>
+    <tr><td>CHBS</td><td class="plain">Crean College of Health and Behavioral Sciences</td><td>SOC</td><td class="plain">School of Communication</td></tr>
+    <tr><td>CFMA</td><td class="plain">Dodge College of Film and Media Arts</td><td>SOP</td><td class="plain">School of Pharmacy</td></tr>
+    <tr><td>CHSS</td><td class="plain">Wilkinson College of Arts, Humanities, and Social Sciences</td><td></td><td></td></tr>
+  </tbody>
+</table>
+<p>The 11-unit list follows Chapman's current schools-and-colleges structure. Your team represents the academic unit as a whole, not a single department.</p>
+
+<hr>
+<h2>What the Coordinator Provides <span class="tag upd">Updated</span></h2>
+<p>Your agent does not choose the university-wide room inventory or time grid. The coordinator provides the <b>resource envelope</b> your academic unit may use:</p>
+<ul>
+  <li>A list of courses/sections that your academic unit must schedule.</li>
+  <li>A list of available meeting times (a canonical university grid of about 29 slots).</li>
+  <li>A list of classrooms allocated or available to your unit, including <b>shared rooms</b> that other units also hold.</li>
+  <li>Room capacity and relevant room features.</li>
+  <li>Current faculty/course constraints supplied for the scheduling run.</li>
+  <li>Any university-wide hard constraints that apply to all agents.</li>
+</ul>
+<p><b>The full envelope is included in every request</b> (<code>generate_schedule</code>, <code>evaluate_change</code> and <code>repair_schedule</code>), so your agent can be stateless.
+The envelope can <b>change during a run</b>: disruptions and coordinator reservations are written into it. Always use the envelope in the current request, never a cached copy.</p>
+<p><b>Where conflicts come from.</b> About 44% of Chapman classrooms were historically used by more than one school, some instructors teach in more than one unit, and some courses are
+cross-listed between units. The coordinator gives shared rooms to every unit that uses them, so units will collide. Resolving those collisions is the multi-agent part of the project.</p>
+
+<hr>
+<h2>What Your Agent Decides</h2>
+<ul>
+  <li>Which course is assigned to which available time.</li>
+  <li>Which allocated classroom is assigned to each course.</li>
+  <li>How to resolve competing preferences within your unit.</li>
+  <li>Which proposed schedule changes are acceptable.</li>
+  <li>Which alternatives to suggest when a proposed change is unacceptable.</li>
+  <li>How to repair the unit schedule when a room, time, faculty availability, or other resource changes.</li>
+</ul>
+
+<hr>
+<h2>Use of Historical Schedule Data <span class="tag upd">Updated</span></h2>
+<p>You may use historical Chapman schedule data in any way you believe improves your agent. Historical data is optional and advisory; it must never override current hard constraints.</p>
+<ul>
+  <li>Use prior schedules directly as examples in the agent prompt.</li>
+  <li>Retrieve similar historical courses or schedules at runtime.</li>
+  <li>Compute empirical preferences, such as common meeting days or times for a course or faculty member.</li>
+  <li>Infer common room types or scheduling patterns.</li>
+  <li>Use historical schedules to construct few-shot examples.</li>
+  <li>Ignore historical data entirely and rely on explicit current constraints.</li>
+</ul>
+<p>If you use historical data, document exactly how it is used and identify any limitations. Copying a previous semester's schedule without reasoning about the current resource allocation is not sufficient.</p>
+<h3>Historical evidence in the provost's data</h3>
+<p>The full registrar schedule is <b>not</b> distributed. Historical practice reaches your agent through the envelope:</p>
+<ul>
+  <li>Each course's <code>preferred_times</code> is the slot its section historically met in, snapped to the current grid.</li>
+  <li>Each instructor's <code>preferred_times</code> collects the slots they historically taught in.</li>
+  <li>Room <code>features</code> are inferred from what historically met in each room.</li>
+</ul>
+<p>Instructors appear only as pseudonyms (<code>FAC-xxxxxx</code>), and the same pseudonym is used in practice and on integration day.
+If you want more history, you can build your own: record the requests from practice runs with <code>--save-dir</code>, or use public sources you are authorized to use.</p>
+<hr>
+<h2>Scheduling Rules <span class="tag upd">Updated</span></h2>
+<p>Your agent must distinguish between hard constraints and soft preferences. Hard constraints determine whether a schedule is valid. Soft preferences determine whether one valid schedule is better than another.</p>
+<h3>Hard constraints</h3>
+<ul>
+  <li>A course must use one of the time slots supplied by the coordinator.</li>
+  <li>A course must use one of the rooms supplied or allocated to the unit.</li>
+  <li>Two courses may not occupy the same room at the same time.</li>
+  <li>One instructor may not teach two courses at the same time.</li>
+  <li>Expected enrollment may not exceed room capacity.</li>
+  <li>A course requiring a specialized room feature must be assigned to a room with that feature.</li>
+  <li>Explicit course-pair conflict constraints supplied in the input must be respected.</li>
+  <li>Any additional hard constraints included in the request must be respected. In Protocol 1.0 these are:
+    <ul>
+      <li>room <code>unavailable_times</code></li>
+      <li>faculty <code>unavailable_times</code></li>
+      <li><code>blackout</code> windows</li>
+      <li><code>forbidden_timeslots</code></li>
+    </ul>
+    These are described under Protocol Details below.
+  </li>
+</ul>
+<div class="callout"><b>"At the same time" means overlapping, not the same ID.</b> Two timeslots conflict if they share at least one day and their clock intervals overlap,
+even when their <code>timeslot_id</code>s differ. For example, <code>MWF-1000</code> (10:00–10:50) overlaps <code>MW-1000</code> (10:00–11:15). Day codes are
+<code>M T W R F</code>, where <code>R</code> is Thursday.</div>
+<div class="callout">A response containing an avoidable hard-constraint violation is considered invalid, even if the schedule is otherwise attractive.
+The provost re-checks every schedule you return. Entries that violate a hard constraint are dropped, and those courses count as unresolved.</div>
+<h3>Soft preferences</h3>
+<p>Soft preferences may differ by academic unit and may be informed by historical schedules. Examples include:</p>
+<ul>
+  <li>Faculty preferred teaching days or times.</li>
+  <li>Avoiding early morning, late evening, or Friday sections.</li>
+  <li>Keeping required courses from the same program separated.</li>
+  <li>Minimizing long gaps in a faculty member's teaching day.</li>
+  <li>Using historically common meeting patterns.</li>
+  <li>Keeping a course in a preferred building or room type.</li>
+  <li>Minimizing changes when repairing an existing schedule.</li>
+  <li>Preferring rooms marked <code>"shared": false</code>, which other units can't contest.</li>
+</ul>
+<p>Your team decides how to represent and prioritize soft preferences. You may use a weighted scoring function, LLM reasoning, rules, an optimizer, or a hybrid approach. You must be able to explain your choice.</p>
+
+<hr>
+<h2>Required Agent Capabilities</h2>
+<p>Every academic-unit agent must support all three operations below.</p>
+<table>
+  <thead><tr><th style="width:24%">Operation</th><th style="width:33%">Purpose</th><th>Required behavior</th></tr></thead>
+  <tbody>
+    <tr><td><code>generate_schedule</code></td><td class="plain">Create a schedule from the supplied resource envelope.</td><td class="plain">Return a complete proposed local schedule plus rationale and unresolved issues.</td></tr>
+    <tr><td><code>evaluate_change</code></td><td class="plain">Evaluate a proposed change to one scheduled course.</td><td class="plain">Accept or reject the change, explain why, and provide valid alternatives when rejecting.</td></tr>
+    <tr><td><code>repair_schedule</code></td><td class="plain">Repair an existing schedule after a disruption.</td><td class="plain">Produce a new valid schedule while minimizing unnecessary changes where possible.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2>Technical Freedom</h2>
+<p>You may implement the internals of your agent however you want, provided it follows the required interface. Examples include:</p>
+<ul>
+  <li>A simple Python program that calls an LLM.</li>
+  <li>OpenAI Agents SDK, LangGraph, CrewAI, PydanticAI, Google ADK, Microsoft Agent Framework, or another agent framework.</li>
+  <li>A prompt-driven agent with configuration files.</li>
+  <li>Retrieval-Augmented Generation (RAG) over historical schedules or policy documents.</li>
+  <li>A hybrid system combining deterministic constraint checks with LLM reasoning.</li>
+  <li>A mathematical optimizer used as a tool by an LLM agent.</li>
+</ul>
+<p>Using a sophisticated framework does not automatically earn a higher grade. A simple system that is reliable, explainable, and well evaluated may outperform a complex system.</p>
+
+<hr>
+<h2>Required Integration Interface</h2>
+<p>All teams must conform to the same interface so the university coordinator can call every academic-unit agent without knowing how it is implemented.</p>
+<h3>Required Python entrypoint</h3>
+<p>Your submission must expose the following callable from <code>agent.py</code>:</p>
+<pre><code>def run_agent(request: dict) -&gt; dict:
+    """Process one coordinator request and return a JSON-compatible dictionary."""
+    ...</code></pre>
+<p>The instructor starter code (<code>student_kit/connect.py</code>) handles connecting to the coordinator.
+Your LLM credentials stay on your own machine. The provost never sees them. Teams using a framework may wrap their framework inside <code>run_agent()</code>.
+Load prompts, configuration and data relative to your agent's own file (<code>Path(__file__).parent</code>), not the current working directory.</p>
+
+<h3>Common request envelope</h3>
+<pre><code>{
+  "protocol_version": "1.0",
+  "request_id": "req-001",
+  "operation": "generate_schedule",
+  "unit": "Fowler School of Engineering",
+  "semester": "Fall 2027",
+  "payload": { ... }
+}</code></pre>
+<p>Required fields:</p>
+<ul>
+  <li><b>protocol_version</b>: must be "1.0".</li>
+  <li><b>request_id</b>: unique identifier supplied by the coordinator; return it unchanged.</li>
+  <li><b>operation</b>: one of generate_schedule, evaluate_change, or repair_schedule.</li>
+  <li><b>unit</b>: the academic unit your agent represents (full name, as in the table above).</li>
+  <li><b>semester</b>: scheduling context.</li>
+  <li><b>payload</b>: operation-specific input described below.</li>
+</ul>
+
+<h3>Common response envelope</h3>
+<pre><code>{
+  "protocol_version": "1.0",
+  "request_id": "req-001",
+  "unit": "Fowler School of Engineering",
+  "status": "completed",
+  "result": { ... },
+  "warnings": [],
+  "errors": []
+}</code></pre>
+<ul>
+  <li><b>status</b> must be completed, partial, or failed.</li>
+  <li><b>result</b> contains operation-specific output.</li>
+  <li><b>warnings</b> contains non-fatal issues or uncertainty.</li>
+  <li><b>errors</b> contains fatal problems that prevented completion. It must be non-empty when status is failed.</li>
+  <li>The response must be JSON-serializable. Do not return framework-specific objects.</li>
+</ul>
+
+<hr>
+<h2>Operation 1: generate_schedule</h2>
+<p>Request payload (abridged; a full example is in <code>input_samples/01_generate_schedule.request.json</code>):</p>
+<pre><code>{
+  "courses": [
+    {
+      "course_id": "CPSC-350-01",
+      "title": "Data Structures and Algorithms",
+      "instructor_id": "FAC-014",
+      "expected_enrollment": 34,
+      "required_features": ["computer"],
+      "preferred_times": ["MW-1030", "TR-1000"],
+      "avoid_times": ["MW-0800"],
+      "conflicts_with": ["CPSC-380-01"]
+    }
+  ],
+  "timeslots": [
+    { "timeslot_id": "MW-1030", "days": ["M", "W"], "start": "10:30", "end": "11:45" }
+  ],
+  "rooms": [
+    { "room_id": "SWE-150", "capacity": 40, "features": ["computer"],
+      "building": "SWE", "shared": true, "unavailable_times": [] }
+  ],
+  "faculty_constraints": [
+    { "instructor_id": "FAC-014", "unavailable_times": ["TR-1300"], "preferred_times": ["MW-1030"] }
+  ],
+  "global_constraints": [],
+  "context": { "unit_code": "SENG" }
+}</code></pre>
+<p>Required result:</p>
+<pre><code>{
+  "schedule": [
+    {
+      "course_id": "CPSC-350-01",
+      "timeslot_id": "MW-1030",
+      "room_id": "SWE-150",
+      "rationale": [
+        "Room capacity satisfies expected enrollment.",
+        "Room provides required computing feature.",
+        "Time is preferred by the instructor."
+      ],
+      "preference_score": 0.91
+    }
+  ],
+  "unresolved": [],
+  "summary": "All courses scheduled with no hard-constraint violations."
+}</code></pre>
+<p><code>preference_score</code> must be a number from 0.0 to 1.0 representing how strongly the agent prefers the selected assignment relative to other feasible choices. You decide how to compute or estimate this score, but document your method.</p>
+<p><b>Unresolved items</b> may be course-ID strings or objects of the form <code>{"course_id": ..., "reason": ...}</code>. Objects are preferred because they explain why.
+Every course in the request must appear either in <code>schedule</code> or in <code>unresolved</code>. The provost counts a course that appears in neither as <b>silently dropped</b>.</p>
+
+<hr>
+<h2>Operation 2: evaluate_change <span class="tag upd">Updated</span></h2>
+<p>The coordinator uses this operation when it needs your unit to consider moving one course because of a university-wide conflict.
+The proposal is always free of conflicts with the <i>other</i> units. Your job is to judge it against your own unit's constraints and preferences.</p>
+<pre><code>{
+  "current_schedule": [ ... ],
+  "proposed_change": {
+    "course_id": "CPSC-350-01",
+    "new_timeslot_id": "TR-1000",
+    "new_room_id": "SWE-150"
+  },
+  "reason": "Resolve shared room SWE-150: SBE ECON-201-02 holds MW-1030/SWE-150.",
+  "courses": [ ... ], "timeslots": [ ... ], "rooms": [ ... ],
+  "faculty_constraints": [ ... ], "global_constraints": [ ... ], "context": { ... }
+}</code></pre>
+<p>The <code>reason</code> names the conflict type and the other unit's course that keeps the contested resource.
+The conflict types are <code>shared room</code>, <code>shared instructor</code> and <code>cross list mismatch</code>.</p>
+<p>Required result:</p>
+<pre><code>{
+  "decision": "reject",
+  "reason": "The proposed time conflicts with another required course.",
+  "impact_score": 0.82,
+  "alternatives": [
+    {
+      "timeslot_id": "MW-1300",
+      "room_id": "SWE-150",
+      "impact_score": 0.22,
+      "reason": "No hard conflicts and only a minor preference penalty."
+    }
+  ]
+}</code></pre>
+<ul>
+  <li><b>decision</b> must be accept or reject.</li>
+  <li><b>impact_score</b> must be between 0.0 and 1.0, where 0.0 means essentially no disruption and 1.0 means severe disruption or infeasibility.</li>
+  <li>If you reject a proposal and at least one valid alternative exists, return one or more alternatives.</li>
+  <li>A rejection must identify the specific constraint or preference that caused the rejection.</li>
+  <li><b>An alternative must move the course.</b> Offering the course's current placement, which is the one in conflict, is not an alternative.
+    Alternatives that reuse the contested resource at an overlapping time can't be used by the provost.</li>
+  <li><b>Accept is not a commit.</b> The provost decides and commits changes. You see the outcome in the next request's <code>current_schedule</code>.</li>
+</ul>
+
+<hr>
+<h2>Operation 3: repair_schedule <span class="tag upd">Updated</span></h2>
+<p>The coordinator uses this operation after a disruption, such as a room becoming unavailable, a faculty constraint changing, or enrollment increasing.</p>
+<pre><code>{
+  "current_schedule": [ ... ],
+  "disruptions": [
+    { "type": "room_unavailable", "room_id": "SWE-150" }
+  ],
+  "timeslots": [ ... ],
+  "rooms": [ ... ],
+  "courses": [ ... ],
+  "faculty_constraints": [ ... ],
+  "global_constraints": [ ... ],
+  "context": { ... }
+}</code></pre>
+<p>The envelope in the request <b>already reflects</b> the disruption. For example, a closed room has been removed from <code>rooms</code>.
+The <code>disruptions</code> list tells you <i>why</i> things changed. Disruption types:</p>
+<table>
+  <thead><tr><th style="width:28%">type</th><th style="width:38%">fields</th><th>effect on the envelope</th></tr></thead>
+  <tbody>
+    <tr><td><code>room_unavailable</code></td><td class="plain"><code>room_id</code>, optional <code>timeslot_ids</code></td><td class="plain">Without <code>timeslot_ids</code> the room is removed. With them, they are added to the room's <code>unavailable_times</code>.</td></tr>
+    <tr><td><code>room_capacity_change</code></td><td class="plain"><code>room_id</code>, <code>new_capacity</code></td><td class="plain">The room's <code>capacity</code> is updated.</td></tr>
+    <tr><td><code>faculty_unavailable</code></td><td class="plain"><code>instructor_id</code>, <code>timeslot_ids</code></td><td class="plain">The slots are added to the instructor's <code>unavailable_times</code>.</td></tr>
+    <tr><td><code>enrollment_change</code></td><td class="plain"><code>course_id</code>, <code>new_enrollment</code>, optional <code>unit</code></td><td class="plain">The course's <code>expected_enrollment</code> is updated.</td></tr>
+    <tr><td><code>blackout</code></td><td class="plain"><code>days</code>, <code>start</code>, <code>end</code></td><td class="plain">A <code>blackout</code> entry is added to <code>global_constraints</code>.</td></tr>
+    <tr><td><code>course_must_move</code></td><td class="plain"><code>course_id</code>, <code>forbidden_timeslot_ids</code></td><td class="plain">A <code>forbidden_timeslots</code> entry is added to <code>global_constraints</code>.</td></tr>
+  </tbody>
+</table>
+<p>Required result:</p>
+<pre><code>{
+  "schedule": [ ... ],
+  "changes": [
+    {
+      "course_id": "CPSC-350-01",
+      "old_timeslot_id": "MW-1030",
+      "old_room_id": "SWE-150",
+      "new_timeslot_id": "MW-1030",
+      "new_room_id": "SWE-201",
+      "reason": "Original room unavailable."
+    }
+  ],
+  "change_count": 1,
+  "unresolved": [],
+  "summary": "Schedule repaired with one course moved."
+}</code></pre>
+<p>The repair objective is not simply to produce any new schedule. Your agent should preserve as much of the existing schedule as possible while restoring feasibility.
+<code>change_count</code> must equal the length of <code>changes</code>. The provost measures stability by comparing your returned schedule with <code>current_schedule</code>, not by trusting <code>change_count</code>.</p>
+<p><b>Escalations.</b> When a university-wide conflict can't be resolved by moving a single course, the provost sends an ordinary <code>repair_schedule</code> carrying a reservation:
+a <code>room_unavailable</code> or <code>faculty_unavailable</code> with specific <code>timeslot_ids</code>, or a <code>course_must_move</code> that forbids every slot but one.
+Your repair may need to move <i>other</i> courses to satisfy it.</p>
+
+<hr>
+<h2>Protocol Details <span class="tag">New</span></h2>
+<h3>Additional envelope fields</h3>
+<table>
+  <thead><tr><th style="width:30%">Field</th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td><code>rooms[].unavailable_times</code></td><td class="plain"><b>Hard.</b> The room can't be used at any slot that overlaps one of these slots.</td></tr>
+    <tr><td><code>rooms[].shared</code></td><td class="plain">Other units also hold this room, so it may be contested.</td></tr>
+    <tr><td><code>rooms[].building</code></td><td class="plain">Informational.</td></tr>
+    <tr><td><code>faculty_constraints[].unavailable_times</code></td><td class="plain"><b>Hard.</b> Overlap semantics apply.</td></tr>
+    <tr><td><code>context</code></td><td class="plain">Unit code and data-provenance notes. Informational.</td></tr>
+  </tbody>
+</table>
+<h3>global_constraints types</h3>
+<pre><code>{"type": "blackout", "days": ["W"], "start": "12:00", "end": "13:00"}
+{"type": "forbidden_timeslots", "course_id": "CPSC-350-01", "timeslot_ids": ["MW-1030"]}
+{"type": "cross_list_match", "rule": "same_timeslot", "owner": "&lt;unit name&gt;",
+ "courses": [{"unit": "&lt;unit A&gt;", "course_id": "..."}, {"unit": "&lt;unit B&gt;", "course_id": "..."}]}</code></pre>
+<ul>
+  <li><code>blackout</code>: <b>Hard.</b> No course may meet in any slot that overlaps the window.</li>
+  <li><code>forbidden_timeslots</code>: <b>Hard.</b> The named course may not use the listed slots.</li>
+  <li><code>cross_list_match</code>: The two sections are one combined class taught across units, and they must end up in the same timeslot.
+    You can't see the other unit's placement during <code>generate_schedule</code>. Placing the course at its preferred time is a good guess.
+    The provost aligns the pair afterwards: it asks the non-owner first, through <code>evaluate_change</code> or an escalation.</li>
+</ul>
+<h3>Timeouts and failures</h3>
+<table>
+  <thead><tr><th style="width:30%">Operation</th><th style="width:20%">Timeout</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td><code>generate_schedule</code></td><td class="plain">180 s</td><td class="plain" rowspan="3">Budget your LLM calls accordingly.
+      A timeout counts as a failed response. On integration day the reference agent covers that one call so the exercise can continue, and the timeout still counts against your team.
+      An explicit <code>status: "failed"</code> is recorded as your answer.</td></tr>
+    <tr><td><code>evaluate_change</code></td><td class="plain">60 s</td></tr>
+    <tr><td><code>repair_schedule</code></td><td class="plain">180 s</td></tr>
+  </tbody>
+</table>
+<p>Each <code>request_id</code> is unique within a run. Exceptions raised inside <code>run_agent</code> are caught by the connector and reported as <code>status: "failed"</code>.</p>
+
+<hr>
+<h2>Error Handling Requirements</h2>
+<ul>
+  <li>Never invent a room or time slot that is absent from the coordinator input.</li>
+  <li>Never silently ignore an unschedulable course.</li>
+  <li>If a complete valid schedule is impossible, return status = partial and list the unscheduled courses in unresolved.</li>
+  <li>If the request is malformed or your agent cannot operate, return status = failed and explain the error.</li>
+  <li>Do not crash the integration process because one course cannot be scheduled.</li>
+</ul>
+
+<hr>
+<h2>The Provost Orchestrator <span class="tag">New</span></h2>
+<p>The provost is the coordinator your agent works with, both locally and on integration day. Every run follows the same phases:</p>
+<table>
+  <thead><tr><th style="width:24%">Phase</th><th>What happens</th></tr></thead>
+  <tbody>
+    <tr><td>1 · Generate</td><td class="plain">All 11 units receive <code>generate_schedule</code> in parallel.</td></tr>
+    <tr><td>2 · Validate</td><td class="plain">Every returned schedule is checked against the unit's envelope and the interface schema. Violating entries are dropped and become unresolved.</td></tr>
+    <tr><td>3 · Negotiate</td><td class="plain">The provost merges the schedules and finds conflicts <i>between</i> units: shared rooms, shared instructors and cross-list mismatches.
+      For each conflict it proposes a conflict-free move to one side through <code>evaluate_change</code>. It asks the unit that has conceded least so far first.
+      On rejection it tries your alternatives, then the other unit. If no single move works, it escalates with <code>repair_schedule</code>.</td></tr>
+    <tr><td>4 · Disrupt</td><td class="plain">Scripted disruptions are applied. Each affected unit receives <code>repair_schedule</code>, and then negotiation runs again.</td></tr>
+    <tr><td>5 · Report</td><td class="plain">The final university schedule, per-unit metrics and the full message log are written to <code>outputs/&lt;run-id&gt;/</code>.</td></tr>
+  </tbody>
+</table>
+<p>The provost holds the authoritative university schedule. Units propose; the provost commits.
+After your unit concedes a resource, the provost records the other unit's claim in your envelope as <code>unavailable_times</code>, so your later repairs don't move back into it.</p>
+
+<h3>Connecting your agent</h3>
+<p>Your agent does <b>not</b> run a server. The connector dials out to the provost, waits for requests, calls your <code>run_agent</code>, and sends back what it returns.
+Only outbound network access is needed.</p>
+<pre><code># practice: provost running in Docker on your own laptop
+python student_kit/connect.py --unit SENG --agent path/to/agent.py --team "Team Name"
+
+# final integration: the instructor's provost on the class network
+python student_kit/connect.py --unit SENG --agent path/to/agent.py --team "Team Name" \
+    --provost http://&lt;instructor-ip&gt;:8370</code></pre>
+
+<h3>Practice environment</h3>
+<ol>
+  <li>Install Docker Desktop and Python 3.9 or newer, then clone the course repository.</li>
+  <li>Start the provost with <code>docker compose up</code> (it pulls a prebuilt image) and open <code>http://localhost:8370</code>. That page is the live dashboard.</li>
+  <li>Connect your agent with the command above, then click <b>Start run</b>. A reference agent plays the other 10 units, and the practice data is the same shape as the final data.</li>
+  <li>Read your results on the dashboard and in <code>outputs/&lt;run-id&gt;/</code>. That folder contains <code>final_schedule.csv</code>, <code>metrics.json</code>, <code>moves.json</code>, and <code>messages.jsonl</code> (every request and response).</li>
+</ol>
+<p>Useful tools:</p>
+<ul>
+  <li><code>connect.py envelope --unit SENG --out envelope.json</code> downloads your unit's envelope.</li>
+  <li><code>--save-dir captured/</code> records every request and response pair, which you can turn into test cases.</li>
+  <li><code>student_kit/check_response.py</code> runs the exact interface checks the provost applies. Use it in your tests.</li>
+  <li>Hard-constraint checking is part of your agent and is not provided. During a run, the provost logs every violation it finds in your returned schedules to <code>messages.jsonl</code> as <code>"type": "hard_constraint_check"</code>.</li>
+</ul>
+
+<h3>Input samples</h3>
+<p>The <code>input_samples/</code> folder contains twelve real requests captured from the provost, each paired with an example of a schema-compliant response. They cover:</p>
+<ul>
+  <li><code>generate_schedule</code></li>
+  <li><code>evaluate_change</code> for each of the three conflict types, plus one rejection with alternatives</li>
+  <li><code>repair_schedule</code> for each disruption type</li>
+  <li>both kinds of escalation</li>
+</ul>
+<p>Start your test suite from these samples.</p>
+
+<hr>
+<h2>Agent Design Requirements</h2>
+<p>Your agent must include all of the following.</p>
+<table>
+  <thead><tr><th style="width:30%">Requirement</th><th>Expectation</th></tr></thead>
+  <tbody>
+    <tr><td>LLM-based reasoning</td><td class="plain">An LLM must play a substantive role in scheduling, evaluating changes, explaining decisions, or coordinating tools.</td></tr>
+    <tr><td>Explicit constraint handling</td><td class="plain">Your system must have a reliable method for checking hard constraints. Purely asking an LLM to 'be careful' is not enough.</td></tr>
+    <tr><td>Structured output</td><td class="plain">All coordinator responses must conform to the JSON-compatible interface in this specification.</td></tr>
+    <tr><td>Rationale</td><td class="plain">The agent must explain important scheduling decisions in concise, specific terms.</td></tr>
+    <tr><td>Alternative generation</td><td class="plain">When rejecting a feasible-to-repair change, the agent should propose alternatives rather than only saying no.</td></tr>
+    <tr><td>Historical-data decision</td><td class="plain">Document whether and how you use historical schedule data.</td></tr>
+    <tr><td>Evaluation</td><td class="plain">Test your agent systematically before final integration.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2>Recommended Architecture</h2>
+<p>A strong solution will normally separate deterministic constraint checking from LLM judgment. For example:</p>
+<div class="flow">
+  <div class="box">Coordinator Request</div>
+  <div class="arrow">↓</div>
+  <div class="agent">
+    <div class="t">Academic Unit Agent</div>
+    <div class="s">Parse current courses/resources</div>
+    <div class="s">Deterministic hard-constraint checker</div>
+    <div class="s">Historical data / retrieval (optional)</div>
+    <div class="s">LLM reasoning and preference handling</div>
+    <div class="s">Validate final schedule</div>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="box">Structured Response</div>
+</div>
+<p>This is a recommendation, not a required implementation. The critical requirement is that hard constraints are checked reliably.</p>
+
+<hr>
+<h2>Testing and Evaluation <span class="tag upd">Updated</span></h2>
+<p>Each team must create at least 12 test cases. At least four must test generate_schedule, four must test evaluate_change, and four must test repair_schedule.</p>
+<ul>
+  <li>At least 3 tests must intentionally create difficult or impossible conditions.</li>
+  <li>At least 2 tests must check room capacity or room-feature constraints.</li>
+  <li>At least 2 tests must check faculty or course conflicts.</li>
+  <li>At least 2 tests must evaluate whether the agent proposes sensible alternatives.</li>
+  <li>At least 1 test must use a disruption that should be repairable with only one or two changes.</li>
+</ul>
+<p>Requests from <code>input_samples/</code> or captured with <code>--save-dir</code> are good starting points. Modify them to create your hard cases.</p>
+<h3>Required evaluation metrics</h3>
+<p>The provost computes the same metrics live during practice and integration runs.</p>
+<table>
+  <thead><tr><th style="width:24%">Metric</th><th>Definition, and how the provost measures it</th><th style="width:13%">Target</th></tr></thead>
+  <tbody>
+    <tr><td>Hard-constraint compliance</td><td class="plain">Percentage of completed test schedules containing zero hard violations. The provost re-checks every schedule you return.</td><td style="color:var(--crimson)">100%</td></tr>
+    <tr><td>Task completion</td><td class="plain">Percentage of test cases for which the agent returns a usable response: status completed or partial, with a result object.</td><td style="color:var(--crimson)">At least 90%</td></tr>
+    <tr><td>Interface compliance</td><td class="plain">Percentage of responses that conform to the required schema, using the checks in <code>student_kit/check_response.py</code>.</td><td style="color:var(--crimson)">100%</td></tr>
+    <tr><td>Alternative validity</td><td class="plain">Percentage of proposed alternatives that are actually feasible within your envelope. The share that is also free university-wide is reported separately.</td><td style="color:var(--crimson)">At least 90%</td></tr>
+    <tr><td>Repair stability</td><td class="plain">Average number of unnecessary course changes during repair: courses changed minus courses whose placement became infeasible.</td><td style="color:var(--crimson)">Lower is better</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2>Project Milestones <span class="tag upd">Updated</span></h2>
+<table class="ms">
+  <tbody>
+    <tr><td>Milestone 1</td><td class="plain"><b>Unit Model:</b> Course representation, constraints, preferences, historical-data plan, and proposed agent architecture.</td></tr>
+    <tr><td>Milestone 2</td><td class="plain"><b>Standalone Agent:</b> Agent can successfully complete generate_schedule for a supplied practice case, such as <code>input_samples/01</code> or your unit's practice envelope.</td></tr>
+    <tr><td>Milestone 3</td><td class="plain"><b>Change Negotiation:</b> Agent supports evaluate_change and proposes valid alternatives.</td></tr>
+    <tr><td>Milestone 4</td><td class="plain"><b>Repair and Evaluation:</b> Agent supports repair_schedule and has a completed 12-case test suite with metrics.</td></tr>
+    <tr><td>Milestone 5</td><td class="plain"><b>Integration Readiness:</b> Agent completes a full practice run against the provost container through <code>connect.py</code>, with 100% interface compliance on the dashboard. Submit that run's <code>metrics.json</code>.</td></tr>
+    <tr><td style="color:var(--ink)">Final</td><td class="plain"><b>Final Integration:</b> All 11 agents are connected to the instructor's provost and participate in a university-wide scheduling and disruption exercise.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2>Final Integration Exercise <span class="tag upd">Updated</span></h2>
+<p>On final integration day, every team connects to the instructor's provost on the class network (address announced in class). The coordinator will provide each unit with its allocated rooms and time slots and request a schedule.
+The coordinator will then identify university-wide issues and ask individual academic-unit agents to evaluate changes. After the initial schedule converges, one or more disruptions will be introduced.</p>
+<p>Possible disruptions include:</p>
+<ul>
+  <li>A classroom becomes unavailable.</li>
+  <li>A room's capacity changes.</li>
+  <li>A faculty member becomes unavailable during a previously valid time.</li>
+  <li>Enrollment in a course increases.</li>
+  <li>A new university-wide blackout period is introduced.</li>
+  <li>A course must be moved with minimal disruption to the rest of the schedule.</li>
+</ul>
+<p>The final envelopes use the full section list for each unit, which is larger than the practice subset. Make sure your agent finishes within the timeouts at that scale.
+Keep your connector running until the instructor ends the run.</p>
+<p>Your grade does not depend on the entire class-wide system producing a perfect university schedule. You are graded primarily on the quality, reliability, interface compliance, and evaluation of your academic-unit agent.</p>
+
+<hr>
+<h2>Required Deliverables</h2>
+<ul>
+  <li><code>agent.py</code> exposing <code>run_agent(request: dict) -&gt; dict</code>. It must run under <code>student_kit/connect.py</code>.</li>
+  <li>All prompts, configuration files, and supporting code needed to run the agent, plus a <code>requirements.txt</code>.</li>
+  <li>Any historical data or derived data used by the agent, or clear instructions for accessing it.</li>
+  <li>README.md with setup and execution instructions.</li>
+  <li>agent_design.pdf or agent_design.md (2–4 pages) describing architecture, constraints, use of historical data, and major design decisions.</li>
+  <li>tests/ containing at least 12 documented test cases.</li>
+  <li>evaluation.csv or evaluation.json containing your test results and required metrics, plus the <code>metrics.json</code> from your Milestone 5 practice run.</li>
+  <li>A short final reflection describing one failure mode you discovered and how you addressed it.</li>
+</ul>
+<h3>Submission directory</h3>
+<pre><code>your_unit_name/
+  agent.py
+  README.md
+  requirements.txt
+  prompts/
+  config/
+  data/
+  tests/
+  agent_design.pdf (or .md)
+  evaluation.csv (or .json)</code></pre>
+
+<hr>
+<h2>Grading</h2>
+<table>
+  <thead><tr><th style="width:30%">Component</th><th style="width:11%; text-align:right">Percent</th><th>What matters</th></tr></thead>
+  <tbody>
+    <tr><td>Academic-unit model and constraints</td><td style="text-align:right">15%</td><td class="plain">Accurate representation of courses, resources, hard constraints, and meaningful soft preferences.</td></tr>
+    <tr><td>Agent design and LLM use</td><td style="text-align:right">15%</td><td class="plain">Clear role for the LLM; appropriate architecture; design is justified rather than unnecessarily complex.</td></tr>
+    <tr><td>Schedule generation</td><td style="text-align:right">15%</td><td class="plain">Produces feasible local schedules and handles unschedulable cases correctly.</td></tr>
+    <tr><td>Change evaluation and negotiation</td><td style="text-align:right">15%</td><td class="plain">Accepts/rejects changes correctly, explains impacts, and proposes useful alternatives.</td></tr>
+    <tr><td>Repair behavior</td><td style="text-align:right">10%</td><td class="plain">Repairs disruptions while preserving as much of the existing schedule as practical.</td></tr>
+    <tr><td>Testing and evaluation</td><td style="text-align:right">15%</td><td class="plain">Thoughtful test cases, quantitative metrics, and evidence of iteration.</td></tr>
+    <tr><td>Interface and integration compliance</td><td style="text-align:right">10%</td><td class="plain">Exact adherence to the common interface and successful coordinator integration.</td></tr>
+    <tr><td>Documentation and final explanation</td><td style="text-align:right">5%</td><td class="plain">Clear README/design explanation and concise reflection on limitations.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+<h2>Important Design Principles</h2>
+<ul>
+  <li>A more complex agent is not automatically a better agent.</li>
+  <li>Hard constraints must be validated, not merely described in a prompt.</li>
+  <li>Historical schedules are evidence of prior practice, not authoritative requirements.</li>
+  <li>A scheduling agent should be able to explain why it made important choices.</li>
+  <li>When a request cannot be satisfied, a useful agent explains the problem and offers alternatives.</li>
+  <li>The final integrated system is multi-agent because scheduling knowledge and decision authority are distributed across academic units.</li>
+</ul>
+
+<hr>
+<h2>Academic Integrity and External Services <span class="tag upd">Updated</span></h2>
+<p>You may use contemporary LLM APIs, agent frameworks, coding assistants, and open-source libraries. You are responsible for understanding and being able to explain your submitted system.
+Do not place confidential or non-public university information into external services. Use only data you are authorized to use. If you use historical schedules, document their source.</p>
+<p>The envelopes and samples in the course repository have been prepared for this purpose. Instructor identities are pseudonymized, so you may send this data to external LLM APIs. Do not attempt to re-identify instructors.</p>
+</body>
+</html>

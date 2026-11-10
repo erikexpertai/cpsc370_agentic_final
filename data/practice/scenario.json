@@ -1,0 +1,55 @@
+{
+  "name": "practice",
+  "description": "Generate, negotiate shared-resource conflicts, then five disruptions.",
+  "negotiation": {
+    "max_iterations": 400,
+    "max_attempts_per_course": 4
+  },
+  "disruptions": [
+    {
+      "label": "Central classroom closed for renovation",
+      "disruption": {
+        "type": "room_unavailable",
+        "room_id": "$BUSIEST_SHARED_ROOM"
+      }
+    },
+    {
+      "label": "Enrollment surge",
+      "disruption": {
+        "type": "enrollment_change",
+        "course_id": "CPSC-230-02",
+        "unit": "Fowler School of Engineering",
+        "new_enrollment": 32
+      }
+    },
+    {
+      "label": "Faculty member unavailable",
+      "disruption": {
+        "type": "faculty_unavailable",
+        "instructor_id": "FAC-00D738",
+        "timeslot_ids": [
+          "F-1300"
+        ]
+      }
+    },
+    {
+      "label": "University common hour",
+      "disruption": {
+        "type": "blackout",
+        "days": [
+          "W"
+        ],
+        "start": "12:00",
+        "end": "13:00"
+      }
+    },
+    {
+      "label": "Room capacity reduced (fire code)",
+      "disruption": {
+        "type": "room_capacity_change",
+        "room_id": "LL-B12",
+        "new_capacity": 18
+      }
+    }
+  ]
+}

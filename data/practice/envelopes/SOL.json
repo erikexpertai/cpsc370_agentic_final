@@ -1,0 +1,1120 @@
+{
+  "unit": "Fowler School of Law",
+  "semester": "Fall 2027 (practice)",
+  "courses": [
+    {
+      "course_id": "LAW-7105-02",
+      "title": "Legal Analysis Writ Research I",
+      "instructor_id": "FAC-680782",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7105-03",
+      "title": "Legal Analysis Writ Research I",
+      "instructor_id": "FAC-45397B",
+      "expected_enrollment": 19,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7105-05",
+      "title": "Legal Analysis Writ Research I",
+      "instructor_id": "FAC-6A3C6A",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7105-06",
+      "title": "Legal Analysis Writ Research I",
+      "instructor_id": "FAC-6F92FB",
+      "expected_enrollment": 19,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7105-08",
+      "title": "Legal Analysis Writ Research I",
+      "instructor_id": "FAC-6F92FB",
+      "expected_enrollment": 19,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7107-01",
+      "title": "Contracts I",
+      "instructor_id": "FAC-531008",
+      "expected_enrollment": 56,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7107-03",
+      "title": "Contracts I",
+      "instructor_id": "FAC-F5BB13",
+      "expected_enrollment": 50,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7110-01",
+      "title": "Criminal Law",
+      "instructor_id": "FAC-460A50",
+      "expected_enrollment": 57,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7110-03",
+      "title": "Criminal Law",
+      "instructor_id": "FAC-C09E4B",
+      "expected_enrollment": 49,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7126-01",
+      "title": "Constitutional Law",
+      "instructor_id": "FAC-5A4CA7",
+      "expected_enrollment": 56,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7130-01",
+      "title": "Civil Procedure I",
+      "instructor_id": "FAC-28E74A",
+      "expected_enrollment": 54,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7130-02",
+      "title": "Civil Procedure I",
+      "instructor_id": "FAC-5DE52F",
+      "expected_enrollment": 52,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7130-03",
+      "title": "Civil Procedure I",
+      "instructor_id": "FAC-BE32BE",
+      "expected_enrollment": 51,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7139-02",
+      "title": "Professional Responsibility",
+      "instructor_id": "FAC-6F1649",
+      "expected_enrollment": 39,
+      "required_features": [],
+      "preferred_times": [
+        "F-0900"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7142-01",
+      "title": "Evidence",
+      "instructor_id": "FAC-28E74A",
+      "expected_enrollment": 69,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7142-02",
+      "title": "Evidence",
+      "instructor_id": "FAC-14B5F2",
+      "expected_enrollment": 40,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7146-01",
+      "title": "Business Associations",
+      "instructor_id": "FAC-DE0BD7",
+      "expected_enrollment": 69,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7301-01",
+      "title": "Criminal Proc/Police Practice",
+      "instructor_id": "FAC-800AD7",
+      "expected_enrollment": 68,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7504-01",
+      "title": "Legal Analysis Workshop",
+      "instructor_id": "FAC-BE32BE",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7504-02",
+      "title": "Legal Analysis Workshop",
+      "instructor_id": "FAC-AFB42C",
+      "expected_enrollment": 26,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7504-03",
+      "title": "Legal Analysis Workshop",
+      "instructor_id": "FAC-AFB42C",
+      "expected_enrollment": 18,
+      "required_features": [],
+      "preferred_times": [
+        "M-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7519-01",
+      "title": "Civil Rights Law",
+      "instructor_id": "FAC-C09E4B",
+      "expected_enrollment": 10,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7549-01",
+      "title": "Health Care Law",
+      "instructor_id": "FAC-D39F5B",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7581-01",
+      "title": "Mediation",
+      "instructor_id": "FAC-E11E39",
+      "expected_enrollment": 21,
+      "required_features": [],
+      "preferred_times": [
+        "M-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7617-01",
+      "title": "Trial Practice",
+      "instructor_id": "FAC-50DA8B",
+      "expected_enrollment": 11,
+      "required_features": [],
+      "preferred_times": [
+        "R-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7617-02",
+      "title": "Trial Practice",
+      "instructor_id": "FAC-C414A2",
+      "expected_enrollment": 8,
+      "required_features": [],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7631-01",
+      "title": "Entertainment Law Clinic",
+      "instructor_id": "FAC-192B2C",
+      "expected_enrollment": 6,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7639-01",
+      "title": "Adv. Top: Separation of Powers",
+      "instructor_id": "FAC-5D270A",
+      "expected_enrollment": 9,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7812-01",
+      "title": "Con Law Equal Protection 1 Amd",
+      "instructor_id": "FAC-5A4CA7",
+      "expected_enrollment": 16,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7816-01",
+      "title": "Negotiations",
+      "instructor_id": "FAC-DE7699",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7822-01",
+      "title": "Copyright Law & Practice",
+      "instructor_id": "FAC-B48BD7",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "W-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7824-01",
+      "title": "Trademarks & Unfair Competiti",
+      "instructor_id": "FAC-9695F7",
+      "expected_enrollment": 25,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7829-01",
+      "title": "Sports Law",
+      "instructor_id": "FAC-CE74B5",
+      "expected_enrollment": 16,
+      "required_features": [],
+      "preferred_times": [
+        "R-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7833-01",
+      "title": "Estate & Gift Taxation",
+      "instructor_id": "FAC-5A5A79",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7870-01",
+      "title": "Real Estate Transactions",
+      "instructor_id": "FAC-DD2247",
+      "expected_enrollment": 11,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LAW-7945-01",
+      "title": "Criminal Defense Clinic",
+      "instructor_id": "FAC-1391BB",
+      "expected_enrollment": 6,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    }
+  ],
+  "timeslots": [
+    {
+      "timeslot_id": "MWF-0800",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "08:00",
+      "end": "08:50"
+    },
+    {
+      "timeslot_id": "MWF-0900",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "09:00",
+      "end": "09:50"
+    },
+    {
+      "timeslot_id": "MWF-1000",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "10:00",
+      "end": "10:50"
+    },
+    {
+      "timeslot_id": "MWF-1100",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "11:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "MWF-1200",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "12:00",
+      "end": "12:50"
+    },
+    {
+      "timeslot_id": "MWF-1300",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "13:00",
+      "end": "13:50"
+    },
+    {
+      "timeslot_id": "MWF-1400",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "14:00",
+      "end": "14:50"
+    },
+    {
+      "timeslot_id": "MW-0830",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "TR-0830",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "MW-1000",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "TR-1000",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "MW-1130",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "TR-1130",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "MW-1300",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "TR-1300",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "MW-1430",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "TR-1430",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "MW-1600",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "TR-1600",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "M-1600",
+      "days": [
+        "M"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "M-1900",
+      "days": [
+        "M"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "T-1600",
+      "days": [
+        "T"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "T-1900",
+      "days": [
+        "T"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "W-1600",
+      "days": [
+        "W"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "W-1900",
+      "days": [
+        "W"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "R-1600",
+      "days": [
+        "R"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "R-1900",
+      "days": [
+        "R"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "F-0900",
+      "days": [
+        "F"
+      ],
+      "start": "09:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "F-1300",
+      "days": [
+        "F"
+      ],
+      "start": "13:00",
+      "end": "15:50"
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "KH-142",
+      "capacity": 90,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-147",
+      "capacity": 90,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-152",
+      "capacity": 70,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-233",
+      "capacity": 24,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-244",
+      "capacity": 75,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-255",
+      "capacity": 75,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-347",
+      "capacity": 24,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-352",
+      "capacity": 36,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-355",
+      "capacity": 30,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-369",
+      "capacity": 24,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-374",
+      "capacity": 48,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-378",
+      "capacity": 48,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    },
+    {
+      "room_id": "KH-379",
+      "capacity": 68,
+      "features": [],
+      "building": "KH",
+      "shared": false
+    }
+  ],
+  "faculty_constraints": [
+    {
+      "instructor_id": "FAC-1391BB",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-14B5F2",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "TR-0830"
+      ]
+    },
+    {
+      "instructor_id": "FAC-192B2C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-28E74A",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830",
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-45397B",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-460A50",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-50DA8B",
+      "unavailable_times": [],
+      "preferred_times": [
+        "R-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-531008",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-5A4CA7",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-5A5A79",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-5D270A",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830"
+      ]
+    },
+    {
+      "instructor_id": "FAC-5DE52F",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-680782",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "TR-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-6A3C6A",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-6F1649",
+      "unavailable_times": [],
+      "preferred_times": [
+        "F-0900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-6F92FB",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1300",
+        "TR-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-800AD7",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-9695F7",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-AFB42C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-B48BD7",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-BE32BE",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1300",
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-C09E4B",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1300",
+        "MW-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-C414A2",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-CE74B5",
+      "unavailable_times": [],
+      "preferred_times": [
+        "R-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-D39F5B",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-DD2247",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-DE0BD7",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-DE7699",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-E11E39",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-F5BB13",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1000"
+      ]
+    }
+  ],
+  "global_constraints": [],
+  "context": {
+    "unit_code": "SOL",
+    "historical_source": "Derived from Chapman registrar export (Fall 2026); instructor IDs pseudonymized",
+    "notes": "preferred_times reflect each section's historical meeting pattern snapped to the canonical grid"
+  }
+}

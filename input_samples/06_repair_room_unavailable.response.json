@@ -1,0 +1,287 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00021",
+  "unit": "School of Pharmacy",
+  "status": "completed",
+  "result": {
+    "schedule": [
+      {
+        "course_id": "PHRM-622L-01",
+        "timeslot_id": "F-0900",
+        "room_id": "RK-95-222"
+      },
+      {
+        "course_id": "PHS-627L-02",
+        "timeslot_id": "F-0900",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHRM-749-01",
+        "timeslot_id": "F-1300",
+        "room_id": "RK-95-222"
+      },
+      {
+        "course_id": "PHRM-782-01",
+        "timeslot_id": "M-1600",
+        "room_id": "RK-95-222"
+      },
+      {
+        "course_id": "PHRA-634-03",
+        "timeslot_id": "F-1300",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHRM-758-01",
+        "timeslot_id": "M-1600",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHRM-772-01",
+        "timeslot_id": "M-1900",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHRM-784-01",
+        "timeslot_id": "MW-1000",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHS-601-02",
+        "timeslot_id": "MW-0830",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHS-602-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "RK-95-217"
+      },
+      {
+        "course_id": "PHS-620-01",
+        "timeslot_id": "R-1600",
+        "room_id": "RK-95-217"
+      },
+      {
+        "course_id": "PHS-627-02",
+        "timeslot_id": "MW-1130",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHS-641-01",
+        "timeslot_id": "W-1600",
+        "room_id": "RK-95-217"
+      },
+      {
+        "course_id": "PHS-691-04",
+        "timeslot_id": "MW-1430",
+        "room_id": "RK-95-217"
+      },
+      {
+        "course_id": "PHS-793-02",
+        "timeslot_id": "MW-1300",
+        "room_id": "RK-95-232"
+      },
+      {
+        "course_id": "PHRM-100-01",
+        "timeslot_id": "F-0900",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-521-02",
+        "timeslot_id": "F-1300",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-521L-01",
+        "timeslot_id": "M-1600",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-525-01",
+        "timeslot_id": "M-1900",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-525-L01",
+        "timeslot_id": "MW-0830",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-540-01",
+        "timeslot_id": "MW-1000",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-543-01",
+        "timeslot_id": "MW-1130",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-571-01",
+        "timeslot_id": "TR-1000",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-581-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-591-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-601-01",
+        "timeslot_id": "TR-0830",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-611-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-621-01",
+        "timeslot_id": "TR-1300",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-642-01",
+        "timeslot_id": "W-1600",
+        "room_id": "RK-94-180"
+      },
+      {
+        "course_id": "PHRM-651-01",
+        "timeslot_id": "R-1600",
+        "room_id": "RK-94-180"
+      }
+    ],
+    "changes": [
+      {
+        "course_id": "PHRM-100-01",
+        "old_timeslot_id": "F-0900",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "F-0900",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-521-02",
+        "old_timeslot_id": "F-1300",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "F-1300",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-521L-01",
+        "old_timeslot_id": "M-1600",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "M-1600",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-525-01",
+        "old_timeslot_id": "M-1900",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "M-1900",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-525-L01",
+        "old_timeslot_id": "MW-0830",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "MW-0830",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-540-01",
+        "old_timeslot_id": "MW-1000",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "MW-1000",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-543-01",
+        "old_timeslot_id": "MW-1130",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "MW-1130",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-571-01",
+        "old_timeslot_id": "TR-1000",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "TR-1000",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-581-01",
+        "old_timeslot_id": "MW-1300",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "MW-1300",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-591-01",
+        "old_timeslot_id": "MW-1430",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "MW-1430",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-601-01",
+        "old_timeslot_id": "TR-0830",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "TR-0830",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-611-01",
+        "old_timeslot_id": "TR-1430",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "TR-1430",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-621-01",
+        "old_timeslot_id": "TR-1300",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "TR-1300",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-642-01",
+        "old_timeslot_id": "W-1600",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "W-1600",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      },
+      {
+        "course_id": "PHRM-651-01",
+        "old_timeslot_id": "R-1600",
+        "old_room_id": "AF-202",
+        "new_timeslot_id": "R-1600",
+        "new_room_id": "RK-94-180",
+        "reason": "Original placement became infeasible."
+      }
+    ],
+    "change_count": 15,
+    "unresolved": [],
+    "summary": "Repaired with 15 change(s), 0 unresolved."
+  },
+  "warnings": [],
+  "errors": []
+}

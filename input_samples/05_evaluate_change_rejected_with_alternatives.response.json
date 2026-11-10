@@ -1,0 +1,33 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00915",
+  "unit": "Wilkinson College of Arts, Humanities, and Social Sciences",
+  "status": "completed",
+  "result": {
+    "decision": "reject",
+    "impact_score": 0.85,
+    "alternatives": [
+      {
+        "timeslot_id": "TR-1130",
+        "room_id": "BK-205",
+        "impact_score": 0.1,
+        "reason": "Satisfies all local hard constraints."
+      },
+      {
+        "timeslot_id": "TR-1130",
+        "room_id": "SH-102",
+        "impact_score": 0.1,
+        "reason": "Satisfies all local hard constraints."
+      },
+      {
+        "timeslot_id": "TR-1130",
+        "room_id": "WH-220",
+        "impact_score": 0.1,
+        "reason": "Satisfies all local hard constraints."
+      }
+    ],
+    "reason": "MW-0830 is a strongly dispreferred time for POSC-311-01."
+  },
+  "warnings": [],
+  "errors": []
+}

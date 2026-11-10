@@ -1,0 +1,1487 @@
+{
+  "unit": "Crean College of Health and Behavioral Sciences",
+  "semester": "Fall 2027 (practice)",
+  "courses": [
+    {
+      "course_id": "CSD-680-02",
+      "title": "Clin Prac Cog & Com Disorders",
+      "instructor_id": "FAC-33538C",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSD-680-03",
+      "title": "Clin Prac Cog & Com Disorders",
+      "instructor_id": "FAC-D28A93",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-101-01",
+      "title": "Intro Health Care Professions",
+      "instructor_id": "FAC-18A908",
+      "expected_enrollment": 179,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-210-L02",
+      "title": "Human Anatomy, Lecture and Lab",
+      "instructor_id": "FAC-CB7A67",
+      "expected_enrollment": 14,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [
+        "M-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-210-L03",
+      "title": "Human Anatomy, Lecture and Lab",
+      "instructor_id": "FAC-1AB1E3",
+      "expected_enrollment": 13,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-210-L04",
+      "title": "Human Anatomy, Lecture and Lab",
+      "instructor_id": "FAC-00D738",
+      "expected_enrollment": 13,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-210-L06",
+      "title": "Human Anatomy, Lecture and Lab",
+      "instructor_id": "FAC-CB7A67",
+      "expected_enrollment": 13,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-310-01",
+      "title": "Advanced Anatomy",
+      "instructor_id": "FAC-C1AFC5",
+      "expected_enrollment": 30,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-345-01",
+      "title": "Pathophysiology: Diet, Disease",
+      "instructor_id": "FAC-784ACB",
+      "expected_enrollment": 16,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-365-01",
+      "title": "Human Physiology Part A",
+      "instructor_id": "FAC-7858E2",
+      "expected_enrollment": 59,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-366-01",
+      "title": "Human Physiology Part B",
+      "instructor_id": "FAC-27FB82",
+      "expected_enrollment": 27,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": [
+        "HSCI-366L-02",
+        "HSCI-366L-04",
+        "HSCI-366L-07"
+      ]
+    },
+    {
+      "course_id": "HSCI-366-03",
+      "title": "Human Physiology Part B",
+      "instructor_id": "FAC-27FB82",
+      "expected_enrollment": 28,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": [
+        "HSCI-366L-02",
+        "HSCI-366L-04",
+        "HSCI-366L-07"
+      ]
+    },
+    {
+      "course_id": "HSCI-366L-02",
+      "title": "Human Physiology Clinical Lab",
+      "instructor_id": "FAC-CB7A67",
+      "expected_enrollment": 12,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": [
+        "HSCI-366-01",
+        "HSCI-366-03"
+      ]
+    },
+    {
+      "course_id": "HSCI-366L-04",
+      "title": "Human Physiology Clinical Lab",
+      "instructor_id": "FAC-CB7A67",
+      "expected_enrollment": 10,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [
+        "W-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": [
+        "HSCI-366-01",
+        "HSCI-366-03"
+      ]
+    },
+    {
+      "course_id": "HSCI-366L-07",
+      "title": "Human Physiology Clinical Lab",
+      "instructor_id": "FAC-00D738",
+      "expected_enrollment": 7,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [
+        "F-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": [
+        "HSCI-366-01",
+        "HSCI-366-03"
+      ]
+    },
+    {
+      "course_id": "HSCI-460-01",
+      "title": "Principles of Pharmacology",
+      "instructor_id": "FAC-784ACB",
+      "expected_enrollment": 23,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-465-01",
+      "title": "Applied Exercise Physiology",
+      "instructor_id": "FAC-18A908",
+      "expected_enrollment": 22,
+      "required_features": [],
+      "preferred_times": [
+        "W-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HSCI-485-01",
+      "title": "Aging and Health",
+      "instructor_id": "FAC-4C3AA6",
+      "expected_enrollment": 22,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1100"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "MFT-605-01",
+      "title": "Group Therapy",
+      "instructor_id": "FAC-9A1B5B",
+      "expected_enrollment": 16,
+      "required_features": [],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "MFT-694-02",
+      "title": "Practicum I",
+      "instructor_id": "FAC-52EB07",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "MFT-694-04",
+      "title": "Practicum I",
+      "instructor_id": "FAC-20A417",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PAS-520-01",
+      "title": "Emergency Medicine",
+      "instructor_id": "FAC-F4330B",
+      "expected_enrollment": 53,
+      "required_features": [],
+      "preferred_times": [
+        "F-0900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PAS-521-01",
+      "title": "Fundamentals of Surgery and Cl",
+      "instructor_id": "FAC-CED0E8",
+      "expected_enrollment": 53,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": [
+        "PAS-521L-03"
+      ]
+    },
+    {
+      "course_id": "PAS-521L-03",
+      "title": "Surgery & Clinical Skills Lab",
+      "instructor_id": "FAC-95C3BA",
+      "expected_enrollment": 17,
+      "required_features": [
+        "lab"
+      ],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": [
+        "PAS-521-01"
+      ]
+    },
+    {
+      "course_id": "PAS-525-01",
+      "title": "Ethics in PA Practice",
+      "instructor_id": "FAC-A5DCA3",
+      "expected_enrollment": 53,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PAS-527-01",
+      "title": "Pediatrics",
+      "instructor_id": "FAC-A5DCA3",
+      "expected_enrollment": 53,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-201-02",
+      "title": "Critical Thinking",
+      "instructor_id": "FAC-419F96",
+      "expected_enrollment": 27,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-204-01L",
+      "title": "Research Methods in Beh Scie",
+      "instructor_id": "FAC-292F7B",
+      "expected_enrollment": 24,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-310-01",
+      "title": "Psychology of Learning",
+      "instructor_id": "FAC-D3D47C",
+      "expected_enrollment": 24,
+      "required_features": [],
+      "preferred_times": [
+        "W-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-310-02",
+      "title": "Psychology of Learning",
+      "instructor_id": "FAC-782C9C",
+      "expected_enrollment": 19,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-310-03",
+      "title": "Psychology of Learning",
+      "instructor_id": "FAC-782C9C",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-315-01",
+      "title": "Sensation and Perception",
+      "instructor_id": "FAC-0A3EDA",
+      "expected_enrollment": 27,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-322-01",
+      "title": "Theories of Personality",
+      "instructor_id": "FAC-B7400A",
+      "expected_enrollment": 24,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-323-05",
+      "title": "Child Development",
+      "instructor_id": "FAC-9250C5",
+      "expected_enrollment": 25,
+      "required_features": [],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-328-03",
+      "title": "Abnormal Psychology",
+      "instructor_id": "FAC-460938",
+      "expected_enrollment": 28,
+      "required_features": [],
+      "preferred_times": [
+        "W-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-340-01",
+      "title": "Human Sexuality",
+      "instructor_id": "FAC-866B73",
+      "expected_enrollment": 76,
+      "required_features": [],
+      "preferred_times": [
+        "M-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-341-01",
+      "title": "Cross-Cultural Psychology",
+      "instructor_id": "FAC-9D553F",
+      "expected_enrollment": 26,
+      "required_features": [],
+      "preferred_times": [
+        "M-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-446-01",
+      "title": "Children & Trauma",
+      "instructor_id": "FAC-59444B",
+      "expected_enrollment": 22,
+      "required_features": [],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-461-01",
+      "title": "Psychology of Music",
+      "instructor_id": "FAC-B8CB85",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [
+        "R-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PSY-498-03",
+      "title": "Sen Sem Psychological Topics",
+      "instructor_id": "FAC-BBD51B",
+      "expected_enrollment": 25,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PT-536-01",
+      "title": "Functional Human Neurosci I",
+      "instructor_id": "FAC-14B016",
+      "expected_enrollment": 40,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "PT-665-01",
+      "title": "Diagnostic Imaging",
+      "instructor_id": "FAC-14B016",
+      "expected_enrollment": 37,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    }
+  ],
+  "timeslots": [
+    {
+      "timeslot_id": "MWF-0800",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "08:00",
+      "end": "08:50"
+    },
+    {
+      "timeslot_id": "MWF-0900",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "09:00",
+      "end": "09:50"
+    },
+    {
+      "timeslot_id": "MWF-1000",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "10:00",
+      "end": "10:50"
+    },
+    {
+      "timeslot_id": "MWF-1100",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "11:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "MWF-1200",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "12:00",
+      "end": "12:50"
+    },
+    {
+      "timeslot_id": "MWF-1300",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "13:00",
+      "end": "13:50"
+    },
+    {
+      "timeslot_id": "MWF-1400",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "14:00",
+      "end": "14:50"
+    },
+    {
+      "timeslot_id": "MW-0830",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "TR-0830",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "MW-1000",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "TR-1000",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "MW-1130",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "TR-1130",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "MW-1300",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "TR-1300",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "MW-1430",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "TR-1430",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "MW-1600",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "TR-1600",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "M-1600",
+      "days": [
+        "M"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "M-1900",
+      "days": [
+        "M"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "T-1600",
+      "days": [
+        "T"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "T-1900",
+      "days": [
+        "T"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "W-1600",
+      "days": [
+        "W"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "W-1900",
+      "days": [
+        "W"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "R-1600",
+      "days": [
+        "R"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "R-1900",
+      "days": [
+        "R"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "F-0900",
+      "days": [
+        "F"
+      ],
+      "start": "09:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "F-1300",
+      "days": [
+        "F"
+      ],
+      "start": "13:00",
+      "end": "15:50"
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "AF-202",
+      "capacity": 95,
+      "features": [],
+      "building": "AF",
+      "shared": true
+    },
+    {
+      "room_id": "AF-211",
+      "capacity": 48,
+      "features": [],
+      "building": "AF",
+      "shared": true
+    },
+    {
+      "room_id": "BK-206",
+      "capacity": 32,
+      "features": [],
+      "building": "BK",
+      "shared": true
+    },
+    {
+      "room_id": "BK-211",
+      "capacity": 40,
+      "features": [],
+      "building": "BK",
+      "shared": true
+    },
+    {
+      "room_id": "BK-213",
+      "capacity": 34,
+      "features": [],
+      "building": "BK",
+      "shared": true
+    },
+    {
+      "room_id": "CB-112",
+      "capacity": 30,
+      "features": [],
+      "building": "CB",
+      "shared": true
+    },
+    {
+      "room_id": "CB-117",
+      "capacity": 34,
+      "features": [],
+      "building": "CB",
+      "shared": true
+    },
+    {
+      "room_id": "CB-118",
+      "capacity": 41,
+      "features": [
+        "lab"
+      ],
+      "building": "CB",
+      "shared": true
+    },
+    {
+      "room_id": "CB-120",
+      "capacity": 36,
+      "features": [
+        "lab"
+      ],
+      "building": "CB",
+      "shared": true
+    },
+    {
+      "room_id": "CB-149",
+      "capacity": 66,
+      "features": [],
+      "building": "CB",
+      "shared": true
+    },
+    {
+      "room_id": "CB-CLINIC",
+      "capacity": 16,
+      "features": [],
+      "building": "CB",
+      "shared": false
+    },
+    {
+      "room_id": "DT-002",
+      "capacity": 36,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "LL-B13",
+      "capacity": 30,
+      "features": [
+        "computer"
+      ],
+      "building": "LL",
+      "shared": true
+    },
+    {
+      "room_id": "OH-301",
+      "capacity": 50,
+      "features": [
+        "studio"
+      ],
+      "building": "OH",
+      "shared": true
+    },
+    {
+      "room_id": "RK-94-180",
+      "capacity": 103,
+      "features": [],
+      "building": "RK",
+      "shared": true
+    },
+    {
+      "room_id": "RK-94-181",
+      "capacity": 129,
+      "features": [],
+      "building": "RK",
+      "shared": false
+    },
+    {
+      "room_id": "RK-94-292",
+      "capacity": 9,
+      "features": [],
+      "building": "RK",
+      "shared": false
+    },
+    {
+      "room_id": "RK-95-105",
+      "capacity": 48,
+      "features": [
+        "lab"
+      ],
+      "building": "RK",
+      "shared": false
+    },
+    {
+      "room_id": "RK-95-106",
+      "capacity": 48,
+      "features": [],
+      "building": "RK",
+      "shared": true
+    },
+    {
+      "room_id": "RK-95-122",
+      "capacity": 68,
+      "features": [],
+      "building": "RK",
+      "shared": false
+    },
+    {
+      "room_id": "RK-95-145",
+      "capacity": 132,
+      "features": [],
+      "building": "RK",
+      "shared": false
+    },
+    {
+      "room_id": "RK-95-150",
+      "capacity": 76,
+      "features": [],
+      "building": "RK",
+      "shared": false
+    },
+    {
+      "room_id": "SC-150",
+      "capacity": 187,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-303",
+      "capacity": 35,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SH-102",
+      "capacity": 32,
+      "features": [],
+      "building": "SH",
+      "shared": true
+    },
+    {
+      "room_id": "SH-205",
+      "capacity": 24,
+      "features": [],
+      "building": "SH",
+      "shared": true
+    },
+    {
+      "room_id": "WH-220",
+      "capacity": 32,
+      "features": [],
+      "building": "WH",
+      "shared": true
+    }
+  ],
+  "faculty_constraints": [
+    {
+      "instructor_id": "FAC-00D738",
+      "unavailable_times": [],
+      "preferred_times": [
+        "F-1300",
+        "T-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-0A3EDA",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-14B016",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-18A908",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-1AB1E3",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-20A417",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-27FB82",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830",
+        "TR-1130"
+      ]
+    },
+    {
+      "instructor_id": "FAC-292F7B",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-33538C",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-419F96",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1130"
+      ]
+    },
+    {
+      "instructor_id": "FAC-460938",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-4C3AA6",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "MWF-1100"
+      ]
+    },
+    {
+      "instructor_id": "FAC-52EB07",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-59444B",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-782C9C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830",
+        "TR-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-784ACB",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1000",
+        "TR-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-7858E2",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-866B73",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-9250C5",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "T-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-95C3BA",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-9A1B5B",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "T-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-9D553F",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-A5DCA3",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-B7400A",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-B8CB85",
+      "unavailable_times": [],
+      "preferred_times": [
+        "R-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-BBD51B",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-C1AFC5",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830"
+      ]
+    },
+    {
+      "instructor_id": "FAC-CB7A67",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "M-1900",
+        "T-1900",
+        "W-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-CED0E8",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-D28A93",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-D3D47C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-F4330B",
+      "unavailable_times": [],
+      "preferred_times": [
+        "F-0900"
+      ]
+    }
+  ],
+  "global_constraints": [
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-210-L02"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-210-L02"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-210-L03"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-210-L03"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-210-L04"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-210-L04"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-210-L06"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-210-L06"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-365-01"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-365-01"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-366-01"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-366-01"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-366-03"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-366-03"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-366L-L02"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-366L-02"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-366L-L04"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-366L-04"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "Crean College of Health and Behavioral Sciences",
+      "courses": [
+        {
+          "unit": "Schmid College of Science and Technology",
+          "course_id": "BIOL-366L-L07"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "HSCI-366L-07"
+        }
+      ]
+    },
+    {
+      "type": "cross_list_match",
+      "rule": "same_timeslot",
+      "owner": "College of Performing Arts",
+      "courses": [
+        {
+          "unit": "College of Performing Arts",
+          "course_id": "MUS-461-01"
+        },
+        {
+          "unit": "Crean College of Health and Behavioral Sciences",
+          "course_id": "PSY-461-01"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "unit_code": "CHBS",
+    "historical_source": "Derived from Chapman registrar export (Fall 2026); instructor IDs pseudonymized",
+    "notes": "preferred_times reflect each section's historical meeting pattern snapped to the canonical grid"
+  }
+}

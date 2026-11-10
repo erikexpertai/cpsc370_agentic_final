@@ -1,0 +1,14 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00913",
+  "unit": "College of Performing Arts",
+  "status": "completed",
+  "result": {
+    "decision": "accept",
+    "impact_score": 0.0,
+    "alternatives": [],
+    "reason": "TH-110-06 at MW-0830 in AF-206C violates no hard constraints."
+  },
+  "warnings": [],
+  "errors": []
+}

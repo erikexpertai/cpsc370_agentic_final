@@ -1,0 +1,1216 @@
+{
+  "unit": "Attallah College of Educational Studies",
+  "semester": "Fall 2027 (practice)",
+  "courses": [
+    {
+      "course_id": "CES-101-01",
+      "title": "Commnity Engement Serv Learn",
+      "instructor_id": "FAC-07770D",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "W-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-102-03",
+      "title": "Social Construction of Differe",
+      "instructor_id": "FAC-07770D",
+      "expected_enrollment": 21,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-103-01",
+      "title": "Helping Professions",
+      "instructor_id": "FAC-7A8E08",
+      "expected_enrollment": 23,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-103-02",
+      "title": "Helping Professions",
+      "instructor_id": "FAC-7A8E08",
+      "expected_enrollment": 28,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-103-03",
+      "title": "Helping Professions",
+      "instructor_id": "FAC-B2F403",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-150-01",
+      "title": "Intro to Disability Studies",
+      "instructor_id": "FAC-9C91A0",
+      "expected_enrollment": 27,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-204-01",
+      "title": "Exploring Theories of Learning",
+      "instructor_id": "FAC-A33B2D",
+      "expected_enrollment": 28,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-295-01",
+      "title": "Community Fieldwork",
+      "instructor_id": "FAC-CE01F5",
+      "expected_enrollment": 16,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CES-301-01",
+      "title": "Organization, Ethics, Society",
+      "instructor_id": "FAC-BA3523",
+      "expected_enrollment": 32,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSP-500-02",
+      "title": "Intro to Coun/Mental Heal Int",
+      "instructor_id": "FAC-799AEC",
+      "expected_enrollment": 21,
+      "required_features": [],
+      "preferred_times": [
+        "M-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSP-510-01",
+      "title": "Intro Ethical Pract Schl Psych",
+      "instructor_id": "FAC-844598",
+      "expected_enrollment": 22,
+      "required_features": [],
+      "preferred_times": [
+        "F-0900"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSP-511-01",
+      "title": "Intr Ethical Pract Prof Sch Cn",
+      "instructor_id": "FAC-D4694C",
+      "expected_enrollment": 19,
+      "required_features": [],
+      "preferred_times": [
+        "F-0900"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSP-514-02",
+      "title": "Adv Social Justice, Equity, In",
+      "instructor_id": "FAC-5C18D5",
+      "expected_enrollment": 22,
+      "required_features": [],
+      "preferred_times": [
+        "W-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSP-517-02",
+      "title": "Mental Health in the Schools",
+      "instructor_id": "FAC-799AEC",
+      "expected_enrollment": 21,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSP-600-01",
+      "title": "Multi-Tier Sys Suprts Sch Cnsl",
+      "instructor_id": "FAC-4392DB",
+      "expected_enrollment": 19,
+      "required_features": [],
+      "preferred_times": [
+        "M-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "CSP-617-01",
+      "title": "Career Counseling & Developmen",
+      "instructor_id": "FAC-D4694C",
+      "expected_enrollment": 24,
+      "required_features": [],
+      "preferred_times": [
+        "W-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "EDUC-706-01",
+      "title": "Lead Org. Transf: Theory & Pra",
+      "instructor_id": "FAC-A8EB14",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [
+        "M-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "EDUC-761-01",
+      "title": "Qualitative Approaches to Inqu",
+      "instructor_id": "FAC-80FB36",
+      "expected_enrollment": 6,
+      "required_features": [],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-101-01",
+      "title": "Intro Leadership: Princ & Prac",
+      "instructor_id": "FAC-6E5947",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-101-02",
+      "title": "Intro Leadership: Princ & Prac",
+      "instructor_id": "FAC-66E741",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-101-05",
+      "title": "Intro Leadership: Princ & Prac",
+      "instructor_id": "FAC-1D19DB",
+      "expected_enrollment": 26,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-101-06",
+      "title": "Intro Leadership: Princ & Prac",
+      "instructor_id": "FAC-708CB1",
+      "expected_enrollment": 33,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-301-01",
+      "title": "Theory & Practice of Leadershp",
+      "instructor_id": "FAC-7407B5",
+      "expected_enrollment": 27,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-302-01",
+      "title": "Dev Eff Teams: Undstnd Yrslf/O",
+      "instructor_id": "FAC-7DC7B6",
+      "expected_enrollment": 30,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-310-01",
+      "title": "Emotional Int, Lead/ Good Life",
+      "instructor_id": "FAC-7B2F1A",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-310-02",
+      "title": "Emotional Int, Lead/ Good Life",
+      "instructor_id": "FAC-392343",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-315-01",
+      "title": "Diversity & Inclusion in Leadr",
+      "instructor_id": "FAC-B18078",
+      "expected_enrollment": 32,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-320-01",
+      "title": "Great Lead:Ethic,Passion,Serv",
+      "instructor_id": "FAC-3C9D9A",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-360-01",
+      "title": "Sports in Contmp Soc: Perspctv",
+      "instructor_id": "FAC-972A74",
+      "expected_enrollment": 28,
+      "required_features": [],
+      "preferred_times": [
+        "M-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-401-01",
+      "title": "Mndflness, Ldrshp & Orgnztns",
+      "instructor_id": "FAC-1AD4B5",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "LEAD-497-01",
+      "title": "Senior Seminar: Lead Capstone",
+      "instructor_id": "FAC-158811",
+      "expected_enrollment": 32,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "TCHR-311-01",
+      "title": "Teaching & Learning Math Concp",
+      "instructor_id": "FAC-E8CADF",
+      "expected_enrollment": 17,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "TCHR-464-01",
+      "title": "Eng Lang Dev Exceptnal Lrners",
+      "instructor_id": "FAC-9A114E",
+      "expected_enrollment": 15,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "TCHR-506-01",
+      "title": "Math Interventions",
+      "instructor_id": "FAC-9A114E",
+      "expected_enrollment": 15,
+      "required_features": [],
+      "preferred_times": [
+        "M-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "TCHR-577-02",
+      "title": "Sec Sbj Mtr Mthds I: Soc St/LA",
+      "instructor_id": "FAC-D763E5",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [
+        "R-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "TCHR-600-01",
+      "title": "MACI Proseminar",
+      "instructor_id": "FAC-1DFFBA",
+      "expected_enrollment": 15,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    }
+  ],
+  "timeslots": [
+    {
+      "timeslot_id": "MWF-0800",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "08:00",
+      "end": "08:50"
+    },
+    {
+      "timeslot_id": "MWF-0900",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "09:00",
+      "end": "09:50"
+    },
+    {
+      "timeslot_id": "MWF-1000",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "10:00",
+      "end": "10:50"
+    },
+    {
+      "timeslot_id": "MWF-1100",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "11:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "MWF-1200",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "12:00",
+      "end": "12:50"
+    },
+    {
+      "timeslot_id": "MWF-1300",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "13:00",
+      "end": "13:50"
+    },
+    {
+      "timeslot_id": "MWF-1400",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "14:00",
+      "end": "14:50"
+    },
+    {
+      "timeslot_id": "MW-0830",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "TR-0830",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "MW-1000",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "TR-1000",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "MW-1130",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "TR-1130",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "MW-1300",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "TR-1300",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "MW-1430",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "TR-1430",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "MW-1600",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "TR-1600",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "M-1600",
+      "days": [
+        "M"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "M-1900",
+      "days": [
+        "M"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "T-1600",
+      "days": [
+        "T"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "T-1900",
+      "days": [
+        "T"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "W-1600",
+      "days": [
+        "W"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "W-1900",
+      "days": [
+        "W"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "R-1600",
+      "days": [
+        "R"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "R-1900",
+      "days": [
+        "R"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "F-0900",
+      "days": [
+        "F"
+      ],
+      "start": "09:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "F-1300",
+      "days": [
+        "F"
+      ],
+      "start": "13:00",
+      "end": "15:50"
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "AF-202",
+      "capacity": 95,
+      "features": [],
+      "building": "AF",
+      "shared": true
+    },
+    {
+      "room_id": "AF-206A",
+      "capacity": 32,
+      "features": [],
+      "building": "AF",
+      "shared": true
+    },
+    {
+      "room_id": "AF-206C",
+      "capacity": 32,
+      "features": [],
+      "building": "AF",
+      "shared": true
+    },
+    {
+      "room_id": "BK-202",
+      "capacity": 24,
+      "features": [],
+      "building": "BK",
+      "shared": true
+    },
+    {
+      "room_id": "BK-204",
+      "capacity": 32,
+      "features": [
+        "computer"
+      ],
+      "building": "BK",
+      "shared": true
+    },
+    {
+      "room_id": "BK-209",
+      "capacity": 40,
+      "features": [],
+      "building": "BK",
+      "shared": true
+    },
+    {
+      "room_id": "BK-210",
+      "capacity": 40,
+      "features": [],
+      "building": "BK",
+      "shared": true
+    },
+    {
+      "room_id": "DT-003",
+      "capacity": 36,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-102",
+      "capacity": 18,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-104",
+      "capacity": 18,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "RH-001",
+      "capacity": 24,
+      "features": [],
+      "building": "RH",
+      "shared": false
+    },
+    {
+      "room_id": "RH-003",
+      "capacity": 28,
+      "features": [],
+      "building": "RH",
+      "shared": true
+    },
+    {
+      "room_id": "RH_120",
+      "capacity": 16,
+      "features": [],
+      "building": "RH_120",
+      "shared": false
+    },
+    {
+      "room_id": "RH_201",
+      "capacity": 10,
+      "features": [],
+      "building": "RH_201",
+      "shared": false
+    },
+    {
+      "room_id": "SC-019",
+      "capacity": 36,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-129",
+      "capacity": 35,
+      "features": [
+        "computer"
+      ],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-205",
+      "capacity": 35,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-303",
+      "capacity": 35,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-327",
+      "capacity": 32,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SH-102",
+      "capacity": 32,
+      "features": [],
+      "building": "SH",
+      "shared": true
+    },
+    {
+      "room_id": "SH-103",
+      "capacity": 28,
+      "features": [],
+      "building": "SH",
+      "shared": true
+    }
+  ],
+  "faculty_constraints": [
+    {
+      "instructor_id": "FAC-07770D",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1130",
+        "W-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-158811",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1130"
+      ]
+    },
+    {
+      "instructor_id": "FAC-1AD4B5",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-1D19DB",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-1DFFBA",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-392343",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1130"
+      ]
+    },
+    {
+      "instructor_id": "FAC-3C9D9A",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-4392DB",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-5C18D5",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-66E741",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-6E5947",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-708CB1",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-7407B5",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-799AEC",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1900",
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-7A8E08",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1300",
+        "MW-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-7B2F1A",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "TR-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-7DC7B6",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-80FB36",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-844598",
+      "unavailable_times": [],
+      "preferred_times": [
+        "F-0900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-972A74",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-9A114E",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1900",
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-9C91A0",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-A33B2D",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-A8EB14",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-B18078",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "MW-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-B2F403",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830"
+      ]
+    },
+    {
+      "instructor_id": "FAC-BA3523",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "TR-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-CE01F5",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-D4694C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "F-0900",
+        "W-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-D763E5",
+      "unavailable_times": [],
+      "preferred_times": [
+        "R-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-E8CADF",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830"
+      ]
+    }
+  ],
+  "global_constraints": [],
+  "context": {
+    "unit_code": "CES",
+    "historical_source": "Derived from Chapman registrar export (Fall 2026); instructor IDs pseudonymized",
+    "notes": "preferred_times reflect each section's historical meeting pattern snapped to the canonical grid"
+  }
+}

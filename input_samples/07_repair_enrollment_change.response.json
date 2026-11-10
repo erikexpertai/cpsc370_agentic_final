@@ -1,0 +1,215 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00022",
+  "unit": "Fowler School of Engineering",
+  "status": "completed",
+  "result": {
+    "schedule": [
+      {
+        "course_id": "CPSC-354-03",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CPSC-408-02",
+        "timeslot_id": "TR-1600",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CPSC-350-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CENG-298-12",
+        "timeslot_id": "R-1600",
+        "room_id": "KC-N106"
+      },
+      {
+        "course_id": "CENG-330-02",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-N106"
+      },
+      {
+        "course_id": "CPSC-230-03",
+        "timeslot_id": "MWF-1200",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "ENGR-101-03",
+        "timeslot_id": "M-1600",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CPSC-285-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CPSC-354-02",
+        "timeslot_id": "MW-1430",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CENG-231-01",
+        "timeslot_id": "TR-1300",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CENG-231L-01",
+        "timeslot_id": "T-1600",
+        "room_id": "KC-N106"
+      },
+      {
+        "course_id": "CENG-298-06",
+        "timeslot_id": "W-1600",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CENG-298-07",
+        "timeslot_id": "R-1600",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CENG-298-09",
+        "timeslot_id": "M-1600",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CENG-330L-02",
+        "timeslot_id": "TR-1300",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CENG-366-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "KC-N107"
+      },
+      {
+        "course_id": "CPSC-298-01",
+        "timeslot_id": "T-1600",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CPSC-298-02",
+        "timeslot_id": "F-0900",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CPSC-308-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "KC-N216"
+      },
+      {
+        "course_id": "CPSC-308-02",
+        "timeslot_id": "F-1300",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CPSC-350-02",
+        "timeslot_id": "M-1900",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CPSC-370-05",
+        "timeslot_id": "TR-1600",
+        "room_id": "LL-B16"
+      },
+      {
+        "course_id": "CPSC-380-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "KC-N106"
+      },
+      {
+        "course_id": "CPSC-390-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CPSC-393-02",
+        "timeslot_id": "MW-1600",
+        "room_id": "KC-N107"
+      },
+      {
+        "course_id": "EENG-200-01",
+        "timeslot_id": "TR-1000",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "EENG-300-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "KC-N106"
+      },
+      {
+        "course_id": "EENG-310-01",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-N107"
+      },
+      {
+        "course_id": "EENG-320-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "KC-N216"
+      },
+      {
+        "course_id": "EENG-398-03",
+        "timeslot_id": "M-1900",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "EENG-512-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "SC-127"
+      },
+      {
+        "course_id": "CPSC-354-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "LL-B14"
+      },
+      {
+        "course_id": "CPSC-513-01",
+        "timeslot_id": "F-0900",
+        "room_id": "KC-N216"
+      },
+      {
+        "course_id": "CPSC-292-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "KC-N106"
+      },
+      {
+        "course_id": "CPSC-292-02",
+        "timeslot_id": "MWF-1000",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CPSC-349-01",
+        "timeslot_id": "MWF-1100",
+        "room_id": "KC-153"
+      },
+      {
+        "course_id": "CPSC-370-03",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-N214"
+      },
+      {
+        "course_id": "CPSC-230-02",
+        "timeslot_id": "MW-1000",
+        "room_id": "KC-N107"
+      }
+    ],
+    "changes": [
+      {
+        "course_id": "CPSC-230-02",
+        "old_timeslot_id": "MW-1000",
+        "old_room_id": "KC-N214",
+        "new_timeslot_id": "MW-1000",
+        "new_room_id": "KC-N107",
+        "reason": "Original placement became infeasible."
+      }
+    ],
+    "change_count": 1,
+    "unresolved": [],
+    "summary": "Repaired with 1 change(s), 0 unresolved."
+  },
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+# Practice provost for students:   docker compose up
+#   -> dashboard http://localhost:8370 ; reference agents stand in for the other units
+services:
+  provost:
+    image: ghcr.io/erikexpertai/cpsc370-provost:latest
+    ports:
+      - "${PROVOST_HOST_PORT:-8370}:8370"
+    environment:
+      PROVOST_MODE: practice
+      PROVOST_DATA: /data
+    volumes:
+      - ./data/practice:/data:ro
+      - ./outputs:/app/outputs

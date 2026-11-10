@@ -1,0 +1,415 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00008",
+  "unit": "Fowler School of Engineering",
+  "status": "completed",
+  "result": {
+    "schedule": [
+      {
+        "course_id": "CPSC-354-03",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 33.",
+          "KC-153 provides required computer.",
+          "TR-1130 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-408-02",
+        "timeslot_id": "TR-1600",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 32.",
+          "KC-153 provides required computer.",
+          "TR-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-350-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 29.",
+          "KC-153 provides required computer.",
+          "TR-1430 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CENG-298-12",
+        "timeslot_id": "R-1600",
+        "room_id": "KC-N106",
+        "rationale": [
+          "KC-N106 seats 30 >= enrollment 5.",
+          "KC-N106 provides required computer.",
+          "R-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CENG-330-02",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-N106",
+        "rationale": [
+          "KC-N106 seats 30 >= enrollment 16.",
+          "KC-N106 provides required computer.",
+          "TR-1130 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-230-03",
+        "timeslot_id": "MWF-1200",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 15.",
+          "KC-N214 provides required computer."
+        ],
+        "preference_score": 0.731
+      },
+      {
+        "course_id": "ENGR-101-03",
+        "timeslot_id": "M-1600",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 20.",
+          "KC-N214 provides required computer."
+        ],
+        "preference_score": 0.592
+      },
+      {
+        "course_id": "CPSC-285-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 25.",
+          "KC-153 provides required computer.",
+          "MWF-0900 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-354-02",
+        "timeslot_id": "MW-1430",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 31.",
+          "MW-1430 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CENG-231-01",
+        "timeslot_id": "TR-1300",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 23.",
+          "KC-153 provides required computer.",
+          "TR-1300 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CENG-231L-01",
+        "timeslot_id": "T-1600",
+        "room_id": "KC-N106",
+        "rationale": [
+          "KC-N106 seats 30 >= enrollment 23.",
+          "KC-N106 provides required computer.",
+          "T-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CENG-298-06",
+        "timeslot_id": "W-1600",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 20.",
+          "KC-153 provides required computer.",
+          "W-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CENG-298-07",
+        "timeslot_id": "R-1600",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 5.",
+          "KC-N214 provides required computer."
+        ],
+        "preference_score": 0.71
+      },
+      {
+        "course_id": "CENG-298-09",
+        "timeslot_id": "M-1600",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 15.",
+          "KC-153 provides required computer.",
+          "M-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CENG-330L-02",
+        "timeslot_id": "TR-1300",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 17.",
+          "KC-N214 provides required computer."
+        ],
+        "preference_score": 0.735
+      },
+      {
+        "course_id": "CENG-366-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "KC-N107",
+        "rationale": [
+          "KC-N107 seats 40 >= enrollment 23.",
+          "KC-N107 provides required computer.",
+          "TR-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-298-01",
+        "timeslot_id": "T-1600",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 20.",
+          "KC-N214 provides required computer.",
+          "T-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-298-02",
+        "timeslot_id": "F-0900",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 18.",
+          "KC-N214 provides required computer."
+        ],
+        "preference_score": 0.588
+      },
+      {
+        "course_id": "CPSC-308-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "KC-N216",
+        "rationale": [
+          "KC-N216 seats 27 >= enrollment 22.",
+          "KC-N216 provides required computer.",
+          "TR-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-308-02",
+        "timeslot_id": "F-1300",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 11.",
+          "KC-N214 provides required computer."
+        ],
+        "preference_score": 0.573
+      },
+      {
+        "course_id": "CPSC-350-02",
+        "timeslot_id": "M-1900",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 17.",
+          "KC-N214 provides required computer."
+        ],
+        "preference_score": 0.585
+      },
+      {
+        "course_id": "CPSC-370-05",
+        "timeslot_id": "TR-1600",
+        "room_id": "LL-B16",
+        "rationale": [
+          "LL-B16 seats 25 >= enrollment 24.",
+          "LL-B16 provides required computer.",
+          "TR-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 0.998
+      },
+      {
+        "course_id": "CPSC-380-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "KC-N106",
+        "rationale": [
+          "KC-N106 seats 30 >= enrollment 23.",
+          "KC-N106 provides required computer.",
+          "MW-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-390-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 21.",
+          "KC-153 provides required computer.",
+          "MW-1300 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-393-02",
+        "timeslot_id": "MW-1600",
+        "room_id": "KC-N107",
+        "rationale": [
+          "KC-N107 seats 40 >= enrollment 21.",
+          "KC-N107 provides required computer.",
+          "MW-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "EENG-200-01",
+        "timeslot_id": "TR-1000",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 15.",
+          "KC-153 provides required computer.",
+          "TR-1000 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "EENG-300-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "KC-N106",
+        "rationale": [
+          "KC-N106 seats 30 >= enrollment 15.",
+          "KC-N106 provides required computer.",
+          "MW-1300 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "EENG-310-01",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-N107",
+        "rationale": [
+          "KC-N107 seats 40 >= enrollment 23.",
+          "KC-N107 provides required computer.",
+          "TR-1130 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "EENG-320-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "KC-N216",
+        "rationale": [
+          "KC-N216 seats 27 >= enrollment 7.",
+          "KC-N216 provides required computer.",
+          "MW-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "EENG-398-03",
+        "timeslot_id": "M-1900",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 14.",
+          "KC-153 provides required computer.",
+          "M-1900 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "EENG-512-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "SC-127",
+        "rationale": [
+          "SC-127 seats 32 >= enrollment 7.",
+          "SC-127 provides required computer.",
+          "TR-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 0.961
+      },
+      {
+        "course_id": "CPSC-354-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "LL-B14",
+        "rationale": [
+          "LL-B14 seats 30 >= enrollment 30.",
+          "MW-1600 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-513-01",
+        "timeslot_id": "F-0900",
+        "room_id": "KC-N216",
+        "rationale": [
+          "KC-N216 seats 27 >= enrollment 26."
+        ],
+        "preference_score": 0.598
+      },
+      {
+        "course_id": "CPSC-292-01",
+        "timeslot_id": "MWF-0900",
+        "room_id": "KC-N106",
+        "rationale": [
+          "KC-N106 seats 30 >= enrollment 25.",
+          "MWF-0900 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-230-02",
+        "timeslot_id": "MW-1000",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 22."
+        ],
+        "preference_score": 0.596
+      },
+      {
+        "course_id": "CPSC-292-02",
+        "timeslot_id": "MWF-1000",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 24.",
+          "MWF-1000 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-349-01",
+        "timeslot_id": "MWF-1100",
+        "room_id": "KC-153",
+        "rationale": [
+          "KC-153 seats 46 >= enrollment 18.",
+          "MWF-1100 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      },
+      {
+        "course_id": "CPSC-370-03",
+        "timeslot_id": "TR-1130",
+        "room_id": "KC-N214",
+        "rationale": [
+          "KC-N214 seats 24 >= enrollment 13.",
+          "TR-1130 matches the course's preferred/historical time."
+        ],
+        "preference_score": 1.0
+      }
+    ],
+    "unresolved": [],
+    "summary": "38 scheduled, 0 unresolved."
+  },
+  "warnings": [],
+  "errors": []
+}

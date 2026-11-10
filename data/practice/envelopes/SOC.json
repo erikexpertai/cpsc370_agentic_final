@@ -1,0 +1,1144 @@
+{
+  "unit": "School of Communication",
+  "semester": "Fall 2027 (practice)",
+  "courses": [
+    {
+      "course_id": "COM-100-03",
+      "title": "Intro to Communication Studies",
+      "instructor_id": "FAC-BDCF13",
+      "expected_enrollment": 12,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-0800"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-102-01",
+      "title": "Public Speaking, Diverse Scty",
+      "instructor_id": "FAC-088010",
+      "expected_enrollment": 17,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-0800"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-102-08",
+      "title": "Public Speaking, Diverse Scty",
+      "instructor_id": "FAC-FF8006",
+      "expected_enrollment": 16,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1200"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-108-02",
+      "title": "Chapman Radio Workshop",
+      "instructor_id": "FAC-B58DCD",
+      "expected_enrollment": 31,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-110-02",
+      "title": "Interpersonal Communication",
+      "instructor_id": "FAC-47F60C",
+      "expected_enrollment": 29,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1200"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-111-01",
+      "title": "We Are What We Speak: Communic",
+      "instructor_id": "FAC-2D7B8D",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-151-01",
+      "title": "Mass Communication",
+      "instructor_id": "FAC-80C94C",
+      "expected_enrollment": 35,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-151-02",
+      "title": "Mass Communication",
+      "instructor_id": "FAC-72F1B8",
+      "expected_enrollment": 30,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1100"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-151-03",
+      "title": "Mass Communication",
+      "instructor_id": "FAC-4588F6",
+      "expected_enrollment": 15,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1200"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-210-02",
+      "title": "Theories of Persuasion",
+      "instructor_id": "FAC-72F1B8",
+      "expected_enrollment": 34,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1200"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-210B-01",
+      "title": "Theories of Persuasion Non-Maj",
+      "instructor_id": "FAC-F49DFD",
+      "expected_enrollment": 33,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1100"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-210B-02",
+      "title": "Theories of Persuasion Non-Maj",
+      "instructor_id": "FAC-F49DFD",
+      "expected_enrollment": 33,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1200"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-212-02",
+      "title": "Group Communication",
+      "instructor_id": "FAC-F3E3DD",
+      "expected_enrollment": 19,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1200"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-219-02",
+      "title": "Bus/Prof Comm for Bus Majors",
+      "instructor_id": "FAC-282D55",
+      "expected_enrollment": 37,
+      "required_features": [],
+      "preferred_times": [
+        "W-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-219-03",
+      "title": "Bus/Prof Comm for Bus Majors",
+      "instructor_id": "FAC-26C400",
+      "expected_enrollment": 36,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-219-05",
+      "title": "Bus/Prof Comm for Bus Majors",
+      "instructor_id": "FAC-D40381",
+      "expected_enrollment": 33,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-295-02",
+      "title": "Intro to Research Methods",
+      "instructor_id": "FAC-C3F2EE",
+      "expected_enrollment": 24,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-308-01",
+      "title": "Adv CU Radio: Special Event Br",
+      "instructor_id": "FAC-B58DCD",
+      "expected_enrollment": 10,
+      "required_features": [],
+      "preferred_times": [],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-311-03",
+      "title": "Gender and Communication",
+      "instructor_id": "FAC-FFF68C",
+      "expected_enrollment": 31,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-314-02",
+      "title": "Communication Theory",
+      "instructor_id": "FAC-8CCBC6",
+      "expected_enrollment": 35,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-317-01",
+      "title": "Media and Politics",
+      "instructor_id": "FAC-C3F2EE",
+      "expected_enrollment": 20,
+      "required_features": [],
+      "preferred_times": [
+        "TR-0830"
+      ],
+      "avoid_times": [],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-328-01",
+      "title": "Mass Media Effects",
+      "instructor_id": "FAC-80C94C",
+      "expected_enrollment": 33,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-334-01",
+      "title": "Comm Through Entertainment",
+      "instructor_id": "FAC-50AACB",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [
+        "T-1900"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-410-01",
+      "title": "Organizational Communication",
+      "instructor_id": "FAC-3F70F2",
+      "expected_enrollment": 34,
+      "required_features": [],
+      "preferred_times": [
+        "MWF-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-488-01",
+      "title": "Darkside of Interpersonal Comm",
+      "instructor_id": "FAC-FE64A3",
+      "expected_enrollment": 25,
+      "required_features": [],
+      "preferred_times": [
+        "W-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "COM-700-01",
+      "title": "Communication Theory",
+      "instructor_id": "FAC-F96553",
+      "expected_enrollment": 5,
+      "required_features": [],
+      "preferred_times": [
+        "R-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HCOM-570-01",
+      "title": "Theories of Interpersonal Comm",
+      "instructor_id": "FAC-CE0435",
+      "expected_enrollment": 17,
+      "required_features": [],
+      "preferred_times": [
+        "M-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HCOM-595-01",
+      "title": "Research Methodology",
+      "instructor_id": "FAC-F7183D",
+      "expected_enrollment": 17,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "HCOM-597-01",
+      "title": "Spec Topic: Health & Risk Comm",
+      "instructor_id": "FAC-26C400",
+      "expected_enrollment": 15,
+      "required_features": [],
+      "preferred_times": [
+        "R-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "SCC-100-02",
+      "title": "Introduction to Strategic Comm",
+      "instructor_id": "FAC-B7BF69",
+      "expected_enrollment": 25,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1130"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "SCC-301-01",
+      "title": "Interviewing and Focus Groups",
+      "instructor_id": "FAC-26C400",
+      "expected_enrollment": 35,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1300"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "SCC-305-01",
+      "title": "Mktg Through the Comm Lens",
+      "instructor_id": "FAC-BCBC25",
+      "expected_enrollment": 13,
+      "required_features": [],
+      "preferred_times": [
+        "W-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "SCC-320-01",
+      "title": "Personal Branding",
+      "instructor_id": "FAC-053B52",
+      "expected_enrollment": 75,
+      "required_features": [],
+      "preferred_times": [
+        "T-1600"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "SCC-400-01",
+      "title": "Message Design II",
+      "instructor_id": "FAC-B3FB6F",
+      "expected_enrollment": 33,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "SCC-400-02",
+      "title": "Message Design II",
+      "instructor_id": "FAC-B7BF69",
+      "expected_enrollment": 24,
+      "required_features": [],
+      "preferred_times": [
+        "TR-1000"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    },
+    {
+      "course_id": "SCC-498-02",
+      "title": "Senior Seminar Strategic Comm",
+      "instructor_id": "FAC-AFA8E0",
+      "expected_enrollment": 23,
+      "required_features": [],
+      "preferred_times": [
+        "MW-1430"
+      ],
+      "avoid_times": [
+        "MWF-0800",
+        "MW-0830",
+        "TR-0830"
+      ],
+      "conflicts_with": []
+    }
+  ],
+  "timeslots": [
+    {
+      "timeslot_id": "MWF-0800",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "08:00",
+      "end": "08:50"
+    },
+    {
+      "timeslot_id": "MWF-0900",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "09:00",
+      "end": "09:50"
+    },
+    {
+      "timeslot_id": "MWF-1000",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "10:00",
+      "end": "10:50"
+    },
+    {
+      "timeslot_id": "MWF-1100",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "11:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "MWF-1200",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "12:00",
+      "end": "12:50"
+    },
+    {
+      "timeslot_id": "MWF-1300",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "13:00",
+      "end": "13:50"
+    },
+    {
+      "timeslot_id": "MWF-1400",
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "14:00",
+      "end": "14:50"
+    },
+    {
+      "timeslot_id": "MW-0830",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "TR-0830",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "08:30",
+      "end": "09:45"
+    },
+    {
+      "timeslot_id": "MW-1000",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "TR-1000",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "10:00",
+      "end": "11:15"
+    },
+    {
+      "timeslot_id": "MW-1130",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "TR-1130",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "11:30",
+      "end": "12:45"
+    },
+    {
+      "timeslot_id": "MW-1300",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "TR-1300",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "13:00",
+      "end": "14:15"
+    },
+    {
+      "timeslot_id": "MW-1430",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "TR-1430",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "14:30",
+      "end": "15:45"
+    },
+    {
+      "timeslot_id": "MW-1600",
+      "days": [
+        "M",
+        "W"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "TR-1600",
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "16:00",
+      "end": "17:15"
+    },
+    {
+      "timeslot_id": "M-1600",
+      "days": [
+        "M"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "M-1900",
+      "days": [
+        "M"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "T-1600",
+      "days": [
+        "T"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "T-1900",
+      "days": [
+        "T"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "W-1600",
+      "days": [
+        "W"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "W-1900",
+      "days": [
+        "W"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "R-1600",
+      "days": [
+        "R"
+      ],
+      "start": "16:00",
+      "end": "18:50"
+    },
+    {
+      "timeslot_id": "R-1900",
+      "days": [
+        "R"
+      ],
+      "start": "19:00",
+      "end": "21:50"
+    },
+    {
+      "timeslot_id": "F-0900",
+      "days": [
+        "F"
+      ],
+      "start": "09:00",
+      "end": "11:50"
+    },
+    {
+      "timeslot_id": "F-1300",
+      "days": [
+        "F"
+      ],
+      "start": "13:00",
+      "end": "15:50"
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "AF-202",
+      "capacity": 95,
+      "features": [],
+      "building": "AF",
+      "shared": true
+    },
+    {
+      "room_id": "AF-208",
+      "capacity": 123,
+      "features": [],
+      "building": "AF",
+      "shared": true
+    },
+    {
+      "room_id": "DT-002",
+      "capacity": 36,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-003",
+      "capacity": 36,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-004",
+      "capacity": 36,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-005",
+      "capacity": 17,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-101",
+      "capacity": 19,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-103",
+      "capacity": 36,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-104",
+      "capacity": 18,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "DT-201",
+      "capacity": 18,
+      "features": [],
+      "building": "DT",
+      "shared": true
+    },
+    {
+      "room_id": "SC-003",
+      "capacity": 36,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-019",
+      "capacity": 36,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-109",
+      "capacity": 35,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-150",
+      "capacity": 187,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "SC-319",
+      "capacity": 36,
+      "features": [],
+      "building": "SC",
+      "shared": true
+    },
+    {
+      "room_id": "WH-116",
+      "capacity": 26,
+      "features": [],
+      "building": "WH",
+      "shared": true
+    }
+  ],
+  "faculty_constraints": [
+    {
+      "instructor_id": "FAC-053B52",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-088010",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-0800"
+      ]
+    },
+    {
+      "instructor_id": "FAC-26C400",
+      "unavailable_times": [],
+      "preferred_times": [
+        "R-1600",
+        "TR-1130",
+        "TR-1300"
+      ]
+    },
+    {
+      "instructor_id": "FAC-282D55",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-2D7B8D",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1130"
+      ]
+    },
+    {
+      "instructor_id": "FAC-3F70F2",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-4588F6",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1200"
+      ]
+    },
+    {
+      "instructor_id": "FAC-47F60C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1200"
+      ]
+    },
+    {
+      "instructor_id": "FAC-50AACB",
+      "unavailable_times": [
+        "F-0900",
+        "F-1300"
+      ],
+      "preferred_times": [
+        "T-1900"
+      ]
+    },
+    {
+      "instructor_id": "FAC-72F1B8",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1100",
+        "MWF-1200"
+      ]
+    },
+    {
+      "instructor_id": "FAC-80C94C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1300",
+        "MW-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-8CCBC6",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-AFA8E0",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MW-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-B3FB6F",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1430"
+      ]
+    },
+    {
+      "instructor_id": "FAC-B58DCD",
+      "unavailable_times": [],
+      "preferred_times": []
+    },
+    {
+      "instructor_id": "FAC-B7BF69",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1000",
+        "TR-1130"
+      ]
+    },
+    {
+      "instructor_id": "FAC-BCBC25",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-BDCF13",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-0800"
+      ]
+    },
+    {
+      "instructor_id": "FAC-C3F2EE",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-0830",
+        "TR-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-CE0435",
+      "unavailable_times": [],
+      "preferred_times": [
+        "M-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-D40381",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1000"
+      ]
+    },
+    {
+      "instructor_id": "FAC-F3E3DD",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1200"
+      ]
+    },
+    {
+      "instructor_id": "FAC-F49DFD",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1100",
+        "MWF-1200"
+      ]
+    },
+    {
+      "instructor_id": "FAC-F7183D",
+      "unavailable_times": [],
+      "preferred_times": [
+        "T-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-F96553",
+      "unavailable_times": [],
+      "preferred_times": [
+        "R-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-FE64A3",
+      "unavailable_times": [],
+      "preferred_times": [
+        "W-1600"
+      ]
+    },
+    {
+      "instructor_id": "FAC-FF8006",
+      "unavailable_times": [],
+      "preferred_times": [
+        "MWF-1200"
+      ]
+    },
+    {
+      "instructor_id": "FAC-FFF68C",
+      "unavailable_times": [],
+      "preferred_times": [
+        "TR-1430"
+      ]
+    }
+  ],
+  "global_constraints": [],
+  "context": {
+    "unit_code": "SOC",
+    "historical_source": "Derived from Chapman registrar export (Fall 2026); instructor IDs pseudonymized",
+    "notes": "preferred_times reflect each section's historical meeting pattern snapped to the canonical grid"
+  }
+}

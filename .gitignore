@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Raw registrar exports contain real instructor names/IDs — never commit to the public repo.
+sample_schedules/
+
+# Run artifacts and the real integration-day envelopes stay off the public repo.
+outputs/
+data/final/
+.pseudonym_salt
+
+# Instructor-only: provost source, tools, design doc, salt (separate private repo)
+private/

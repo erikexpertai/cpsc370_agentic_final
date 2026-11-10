@@ -1,0 +1,235 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00023",
+  "unit": "Crean College of Health and Behavioral Sciences",
+  "status": "completed",
+  "result": {
+    "schedule": [
+      {
+        "course_id": "HSCI-101-01",
+        "timeslot_id": "W-1600",
+        "room_id": "SC-150"
+      },
+      {
+        "course_id": "HSCI-210-L02",
+        "timeslot_id": "M-1900",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "HSCI-210-L06",
+        "timeslot_id": "T-1900",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "HSCI-366L-02",
+        "timeslot_id": "W-1900",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "HSCI-366L-04",
+        "timeslot_id": "M-1600",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "HSCI-210-L03",
+        "timeslot_id": "F-0900",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "HSCI-210-L04",
+        "timeslot_id": "T-1900",
+        "room_id": "CB-120"
+      },
+      {
+        "course_id": "PAS-521L-03",
+        "timeslot_id": "MW-0830",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "PSY-340-01",
+        "timeslot_id": "M-1600",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "HSCI-365-01",
+        "timeslot_id": "MWF-1000",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PAS-520-01",
+        "timeslot_id": "F-0900",
+        "room_id": "RK-95-122"
+      },
+      {
+        "course_id": "PAS-521-01",
+        "timeslot_id": "F-1300",
+        "room_id": "RK-95-122"
+      },
+      {
+        "course_id": "PAS-525-01",
+        "timeslot_id": "T-1600",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PAS-527-01",
+        "timeslot_id": "M-1600",
+        "room_id": "RK-95-122"
+      },
+      {
+        "course_id": "PT-536-01",
+        "timeslot_id": "MW-1000",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "PT-665-01",
+        "timeslot_id": "MW-1130",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "PSY-323-05",
+        "timeslot_id": "T-1900",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "HSCI-485-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "MFT-605-01",
+        "timeslot_id": "T-1900",
+        "room_id": "CB-CLINIC"
+      },
+      {
+        "course_id": "CSD-680-03",
+        "timeslot_id": "M-1600",
+        "room_id": "RK-94-292"
+      },
+      {
+        "course_id": "HSCI-310-01",
+        "timeslot_id": "TR-0830",
+        "room_id": "CB-112"
+      },
+      {
+        "course_id": "HSCI-366-01",
+        "timeslot_id": "TR-0830",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "HSCI-366-03",
+        "timeslot_id": "TR-1130",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PSY-201-02",
+        "timeslot_id": "TR-1130",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "PSY-310-03",
+        "timeslot_id": "TR-1000",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PSY-315-01",
+        "timeslot_id": "MW-1300",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PSY-328-03",
+        "timeslot_id": "W-1600",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PSY-341-01",
+        "timeslot_id": "M-1900",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PSY-498-03",
+        "timeslot_id": "TR-1600",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "HSCI-460-01",
+        "timeslot_id": "TR-1000",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "HSCI-465-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "PSY-204-01L",
+        "timeslot_id": "R-1900",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "PSY-310-01",
+        "timeslot_id": "W-1900",
+        "room_id": "RK-94-181"
+      },
+      {
+        "course_id": "PSY-310-02",
+        "timeslot_id": "TR-0830",
+        "room_id": "RK-95-105"
+      },
+      {
+        "course_id": "PSY-322-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "RK-95-145"
+      },
+      {
+        "course_id": "PSY-446-01",
+        "timeslot_id": "T-1900",
+        "room_id": "RK-95-122"
+      },
+      {
+        "course_id": "HSCI-345-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "CB-CLINIC"
+      },
+      {
+        "course_id": "CSD-680-02",
+        "timeslot_id": "F-0900",
+        "room_id": "RK-94-292"
+      },
+      {
+        "course_id": "MFT-694-02",
+        "timeslot_id": "F-1300",
+        "room_id": "RK-94-292"
+      },
+      {
+        "course_id": "MFT-694-04",
+        "timeslot_id": "M-1900",
+        "room_id": "RK-94-292"
+      },
+      {
+        "course_id": "PSY-461-01",
+        "timeslot_id": "R-1900",
+        "room_id": "CB-CLINIC"
+      },
+      {
+        "course_id": "HSCI-366L-07",
+        "timeslot_id": "TR-1300",
+        "room_id": "RK-95-105"
+      }
+    ],
+    "changes": [
+      {
+        "course_id": "HSCI-366L-07",
+        "old_timeslot_id": "F-1300",
+        "old_room_id": "RK-95-105",
+        "new_timeslot_id": "TR-1300",
+        "new_room_id": "RK-95-105",
+        "reason": "Original placement became infeasible."
+      }
+    ],
+    "change_count": 1,
+    "unresolved": [],
+    "summary": "Repaired with 1 change(s), 0 unresolved."
+  },
+  "warnings": [],
+  "errors": []
+}

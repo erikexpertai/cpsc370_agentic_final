@@ -1,0 +1,1472 @@
+{
+  "protocol_version": "1.0",
+  "request_id": "run-SAMPLE-00913",
+  "operation": "evaluate_change",
+  "unit": "College of Performing Arts",
+  "semester": "Fall 2027 (practice)",
+  "payload": {
+    "current_schedule": [
+      {
+        "course_id": "MUS-321-01",
+        "timeslot_id": "F-0900",
+        "room_id": "CPH-101"
+      },
+      {
+        "course_id": "DANC-139-01",
+        "timeslot_id": "MW-1000",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "DANC-267-02",
+        "timeslot_id": "TR-1600",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "MUS-465-01",
+        "timeslot_id": "R-1600",
+        "room_id": "CPH-001"
+      },
+      {
+        "course_id": "DANC-477-01",
+        "timeslot_id": "F-0900",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "DANC-272-02",
+        "timeslot_id": "TR-1430",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "DANC-372-02",
+        "timeslot_id": "TR-1300",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "DANC-440-02",
+        "timeslot_id": "MW-1300",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "DANC-476-01",
+        "timeslot_id": "TR-0830",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "MUS-307-01",
+        "timeslot_id": "M-1900",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "MUS-316-V7",
+        "timeslot_id": "M-1600",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "MUS-201A-01",
+        "timeslot_id": "M-1600",
+        "room_id": "BH-109"
+      },
+      {
+        "course_id": "MUS-315-01",
+        "timeslot_id": "F-0900",
+        "room_id": "CPH-002"
+      },
+      {
+        "course_id": "TH-371-01",
+        "timeslot_id": "TR-1130",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "TH-170-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "TH-216-01",
+        "timeslot_id": "MW-1130",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "MUS-122-01",
+        "timeslot_id": "T-1900",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "TH-378-01",
+        "timeslot_id": "TR-1430",
+        "room_id": "BH-109"
+      },
+      {
+        "course_id": "TH-170-02",
+        "timeslot_id": "MW-1600",
+        "room_id": "BH-124"
+      },
+      {
+        "course_id": "DANC-229-01",
+        "timeslot_id": "F-1300",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "DANC-367-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "BH-223"
+      },
+      {
+        "course_id": "MUS-102A-02",
+        "timeslot_id": "MW-1600",
+        "room_id": "CPH-001"
+      },
+      {
+        "course_id": "MUS-114-02",
+        "timeslot_id": "TR-1600",
+        "room_id": "BH-109"
+      },
+      {
+        "course_id": "MUS-114-03",
+        "timeslot_id": "TR-1300",
+        "room_id": "BH-109"
+      },
+      {
+        "course_id": "MUS-223-01",
+        "timeslot_id": "MW-0830",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "MUS-227-01",
+        "timeslot_id": "MW-1000",
+        "room_id": "BH-109"
+      },
+      {
+        "course_id": "MUS-244-02",
+        "timeslot_id": "TR-1300",
+        "room_id": "BH-124"
+      },
+      {
+        "course_id": "MUS-249-01",
+        "timeslot_id": "M-1600",
+        "room_id": "CPH-002"
+      },
+      {
+        "course_id": "MUS-333-01",
+        "timeslot_id": "F-0900",
+        "room_id": "CPH-202"
+      },
+      {
+        "course_id": "MUS-457-01",
+        "timeslot_id": "MW-1600",
+        "room_id": "CPH-101"
+      },
+      {
+        "course_id": "MUS-461-01",
+        "timeslot_id": "R-1900",
+        "room_id": "BH-100"
+      },
+      {
+        "course_id": "TH-100-01",
+        "timeslot_id": "MW-1430",
+        "room_id": "BH-109"
+      },
+      {
+        "course_id": "TH-301-01",
+        "timeslot_id": "MW-1130",
+        "room_id": "BH-109"
+      },
+      {
+        "course_id": "TH-388-04L",
+        "timeslot_id": "F-0900",
+        "room_id": "OH-204"
+      },
+      {
+        "course_id": "TH-410-01",
+        "timeslot_id": "TR-1600",
+        "room_id": "BH-124"
+      },
+      {
+        "course_id": "TH-110-06",
+        "timeslot_id": "M-1600",
+        "room_id": "AF-206C"
+      }
+    ],
+    "proposed_change": {
+      "course_id": "TH-110-06",
+      "new_timeslot_id": "MW-0830",
+      "new_room_id": "AF-206C"
+    },
+    "reason": "Resolve shared instructor FAC-3AA389: CFMA FP-318-01 holds M-1600/CSW-111.",
+    "courses": [
+      {
+        "course_id": "DANC-139-01",
+        "title": "Ballroom Dance",
+        "instructor_id": "FAC-54A023",
+        "expected_enrollment": 13,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "MW-1000"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-229-01",
+        "title": "Experimental Course",
+        "instructor_id": "FAC-9CA2F1",
+        "expected_enrollment": 17,
+        "required_features": [],
+        "preferred_times": [
+          "F-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-267-02",
+        "title": "Conditioning for Dance",
+        "instructor_id": "FAC-0F66DA",
+        "expected_enrollment": 9,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "TR-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-272-02",
+        "title": "Modern Dance",
+        "instructor_id": "FAC-E40E25",
+        "expected_enrollment": 20,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "TR-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-367-01",
+        "title": "Pilates Theory and Methods",
+        "instructor_id": "FAC-58224D",
+        "expected_enrollment": 20,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-372-02",
+        "title": "Modern Dance",
+        "instructor_id": "FAC-A85586",
+        "expected_enrollment": 15,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "TR-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-440-02",
+        "title": "Dance Teaching Methods",
+        "instructor_id": "FAC-05258E",
+        "expected_enrollment": 17,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "MW-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-476-01",
+        "title": "Ballet",
+        "instructor_id": "FAC-CB86E1",
+        "expected_enrollment": 20,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "TR-0830"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "DANC-477-01",
+        "title": "BFA Dance Techniques",
+        "instructor_id": "FAC-2F725D",
+        "expected_enrollment": 17,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "F-0900"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-102A-02",
+        "title": "Compendium Wstrn Music Hist I",
+        "instructor_id": "FAC-1EEDBB",
+        "expected_enrollment": 9,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-114-02",
+        "title": "Piano Class",
+        "instructor_id": "FAC-3E9A01",
+        "expected_enrollment": 8,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-114-03",
+        "title": "Piano Class",
+        "instructor_id": "FAC-3E9A01",
+        "expected_enrollment": 10,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-122-01",
+        "title": "Musical Cultures of the World",
+        "instructor_id": "FAC-EF500F",
+        "expected_enrollment": 30,
+        "required_features": [],
+        "preferred_times": [
+          "T-1900"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-201A-01",
+        "title": "History of Rock",
+        "instructor_id": "FAC-FC98C5",
+        "expected_enrollment": 33,
+        "required_features": [],
+        "preferred_times": [
+          "M-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-223-01",
+        "title": "Diction for Singers I: Eng/Ita",
+        "instructor_id": "FAC-3866DB",
+        "expected_enrollment": 12,
+        "required_features": [],
+        "preferred_times": [
+          "MW-0830"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-227-01",
+        "title": "Diction for Singers III - Fren",
+        "instructor_id": "FAC-3866DB",
+        "expected_enrollment": 6,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1000"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-244-02",
+        "title": "Principles of Music Technology",
+        "instructor_id": "FAC-109D5B",
+        "expected_enrollment": 22,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1300"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-249-01",
+        "title": "Film Music Composition I",
+        "instructor_id": "FAC-199B7E",
+        "expected_enrollment": 10,
+        "required_features": [],
+        "preferred_times": [
+          "M-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-307-01",
+        "title": "University Choir",
+        "instructor_id": "FAC-B145B5",
+        "expected_enrollment": 48,
+        "required_features": [],
+        "preferred_times": [
+          "M-1900"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-315-01",
+        "title": "Wind Symphony",
+        "instructor_id": "FAC-8C28C2",
+        "expected_enrollment": 35,
+        "required_features": [],
+        "preferred_times": [],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-316-V7",
+        "title": "Studio Class",
+        "instructor_id": "FAC-9FF710",
+        "expected_enrollment": 5,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "M-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-321-01",
+        "title": "The Chapman Orchestra",
+        "instructor_id": "FAC-19243A",
+        "expected_enrollment": 38,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-333-01",
+        "title": "Research Methods in the Arts",
+        "instructor_id": "FAC-F71C42",
+        "expected_enrollment": 5,
+        "required_features": [],
+        "preferred_times": [],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-457-01",
+        "title": "Practicum Choral Lit/Pedagogy",
+        "instructor_id": "FAC-F8F4D5",
+        "expected_enrollment": 14,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-461-01",
+        "title": "Psychology of Music",
+        "instructor_id": "FAC-B8CB85",
+        "expected_enrollment": 6,
+        "required_features": [],
+        "preferred_times": [
+          "R-1900"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "MUS-465-01",
+        "title": "Marching Band & Jazz Technique",
+        "instructor_id": "FAC-099AA5",
+        "expected_enrollment": 6,
+        "required_features": [
+          "studio"
+        ],
+        "preferred_times": [
+          "R-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-100-01",
+        "title": "Intro to Entert Des & Tech",
+        "instructor_id": "FAC-AD8E81",
+        "expected_enrollment": 18,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-110-06",
+        "title": "Introduction to Acting",
+        "instructor_id": "FAC-3AA389",
+        "expected_enrollment": 16,
+        "required_features": [],
+        "preferred_times": [
+          "MW-0830"
+        ],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-170-01",
+        "title": "Prod Process: Art of Collabor",
+        "instructor_id": "FAC-F335A0",
+        "expected_enrollment": 31,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-170-02",
+        "title": "Prod Process: Art of Collabor",
+        "instructor_id": "FAC-F335A0",
+        "expected_enrollment": 28,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-216-01",
+        "title": "Fundamentals of Charac Buildin",
+        "instructor_id": "FAC-C15ED4",
+        "expected_enrollment": 11,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1130"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-301-01",
+        "title": "Drafting for the Entertainment",
+        "instructor_id": "FAC-AD8E81",
+        "expected_enrollment": 10,
+        "required_features": [],
+        "preferred_times": [
+          "MW-1130"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-371-01",
+        "title": "Theatre History I - Antiquity",
+        "instructor_id": "FAC-254F40",
+        "expected_enrollment": 35,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1130"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-378-01",
+        "title": "Methods of Teaching Drama",
+        "instructor_id": "FAC-F335A0",
+        "expected_enrollment": 29,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1430"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-388-04L",
+        "title": "Directing for the Theatre I",
+        "instructor_id": "FAC-74FE08",
+        "expected_enrollment": 17,
+        "required_features": [],
+        "preferred_times": [],
+        "avoid_times": [],
+        "conflicts_with": []
+      },
+      {
+        "course_id": "TH-410-01",
+        "title": "Acting Shakespeare II",
+        "instructor_id": "FAC-18652D",
+        "expected_enrollment": 15,
+        "required_features": [],
+        "preferred_times": [
+          "TR-1600"
+        ],
+        "avoid_times": [
+          "MWF-0800",
+          "MW-0830",
+          "TR-0830"
+        ],
+        "conflicts_with": []
+      }
+    ],
+    "timeslots": [
+      {
+        "timeslot_id": "MWF-0800",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "08:00",
+        "end": "08:50"
+      },
+      {
+        "timeslot_id": "MWF-0900",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "timeslot_id": "MWF-1000",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "10:00",
+        "end": "10:50"
+      },
+      {
+        "timeslot_id": "MWF-1100",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "11:00",
+        "end": "11:50"
+      },
+      {
+        "timeslot_id": "MWF-1200",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "12:00",
+        "end": "12:50"
+      },
+      {
+        "timeslot_id": "MWF-1300",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "13:00",
+        "end": "13:50"
+      },
+      {
+        "timeslot_id": "MWF-1400",
+        "days": [
+          "M",
+          "W",
+          "F"
+        ],
+        "start": "14:00",
+        "end": "14:50"
+      },
+      {
+        "timeslot_id": "MW-0830",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "08:30",
+        "end": "09:45"
+      },
+      {
+        "timeslot_id": "TR-0830",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "08:30",
+        "end": "09:45"
+      },
+      {
+        "timeslot_id": "MW-1000",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "10:00",
+        "end": "11:15"
+      },
+      {
+        "timeslot_id": "TR-1000",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "10:00",
+        "end": "11:15"
+      },
+      {
+        "timeslot_id": "MW-1130",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "11:30",
+        "end": "12:45"
+      },
+      {
+        "timeslot_id": "TR-1130",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "11:30",
+        "end": "12:45"
+      },
+      {
+        "timeslot_id": "MW-1300",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "13:00",
+        "end": "14:15"
+      },
+      {
+        "timeslot_id": "TR-1300",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "13:00",
+        "end": "14:15"
+      },
+      {
+        "timeslot_id": "MW-1430",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "14:30",
+        "end": "15:45"
+      },
+      {
+        "timeslot_id": "TR-1430",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "14:30",
+        "end": "15:45"
+      },
+      {
+        "timeslot_id": "MW-1600",
+        "days": [
+          "M",
+          "W"
+        ],
+        "start": "16:00",
+        "end": "17:15"
+      },
+      {
+        "timeslot_id": "TR-1600",
+        "days": [
+          "T",
+          "R"
+        ],
+        "start": "16:00",
+        "end": "17:15"
+      },
+      {
+        "timeslot_id": "M-1600",
+        "days": [
+          "M"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "M-1900",
+        "days": [
+          "M"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "T-1600",
+        "days": [
+          "T"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "T-1900",
+        "days": [
+          "T"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "W-1600",
+        "days": [
+          "W"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "W-1900",
+        "days": [
+          "W"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "R-1600",
+        "days": [
+          "R"
+        ],
+        "start": "16:00",
+        "end": "18:50"
+      },
+      {
+        "timeslot_id": "R-1900",
+        "days": [
+          "R"
+        ],
+        "start": "19:00",
+        "end": "21:50"
+      },
+      {
+        "timeslot_id": "F-0900",
+        "days": [
+          "F"
+        ],
+        "start": "09:00",
+        "end": "11:50"
+      },
+      {
+        "timeslot_id": "F-1300",
+        "days": [
+          "F"
+        ],
+        "start": "13:00",
+        "end": "15:50"
+      }
+    ],
+    "rooms": [
+      {
+        "room_id": "AF-206C",
+        "capacity": 32,
+        "features": [],
+        "building": "AF",
+        "shared": true
+      },
+      {
+        "room_id": "AF-208",
+        "capacity": 123,
+        "features": [],
+        "building": "AF",
+        "shared": true
+      },
+      {
+        "room_id": "BH-100",
+        "capacity": 400,
+        "features": [
+          "studio"
+        ],
+        "building": "BH",
+        "shared": false
+      },
+      {
+        "room_id": "BH-109",
+        "capacity": 140,
+        "features": [],
+        "building": "BH",
+        "shared": false
+      },
+      {
+        "room_id": "BH-124",
+        "capacity": 28,
+        "features": [],
+        "building": "BH",
+        "shared": false
+      },
+      {
+        "room_id": "BH-223",
+        "capacity": 24,
+        "features": [],
+        "building": "BH",
+        "shared": false
+      },
+      {
+        "room_id": "BK-101",
+        "capacity": 45,
+        "features": [],
+        "building": "BK",
+        "shared": true
+      },
+      {
+        "room_id": "CPH-001",
+        "capacity": 55,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "CPH-002",
+        "capacity": 36,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "CPH-101",
+        "capacity": 50,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "CPH-102",
+        "capacity": 50,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "CPH-103",
+        "capacity": 51,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "CPH-104",
+        "capacity": 51,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "CPH-201",
+        "capacity": 36,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "CPH-202",
+        "capacity": 22,
+        "features": [
+          "studio"
+        ],
+        "building": "CPH",
+        "shared": false
+      },
+      {
+        "room_id": "ETC-103",
+        "capacity": 32,
+        "features": [],
+        "building": "ETC",
+        "shared": true
+      },
+      {
+        "room_id": "ETC-112",
+        "capacity": 49,
+        "features": [],
+        "building": "ETC",
+        "shared": false
+      },
+      {
+        "room_id": "MC-149",
+        "capacity": 50,
+        "features": [],
+        "building": "MC",
+        "shared": false
+      },
+      {
+        "room_id": "MC-230",
+        "capacity": 30,
+        "features": [],
+        "building": "MC",
+        "shared": false
+      },
+      {
+        "room_id": "OH-101D",
+        "capacity": 24,
+        "features": [],
+        "building": "OH",
+        "shared": false
+      },
+      {
+        "room_id": "OH-103",
+        "capacity": 90,
+        "features": [
+          "studio"
+        ],
+        "building": "OH",
+        "shared": false
+      },
+      {
+        "room_id": "OH-201",
+        "capacity": 36,
+        "features": [],
+        "building": "OH",
+        "shared": false
+      },
+      {
+        "room_id": "OH-204",
+        "capacity": 22,
+        "features": [
+          "studio"
+        ],
+        "building": "OH",
+        "shared": false
+      },
+      {
+        "room_id": "OH-301",
+        "capacity": 50,
+        "features": [
+          "studio"
+        ],
+        "building": "OH",
+        "shared": true
+      },
+      {
+        "room_id": "OH-B01",
+        "capacity": 25,
+        "features": [],
+        "building": "OH",
+        "shared": false
+      }
+    ],
+    "faculty_constraints": [
+      {
+        "instructor_id": "FAC-05258E",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-099AA5",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": [
+          "R-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-0F66DA",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": [
+          "TR-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-109D5B",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-18652D",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-19243A",
+        "unavailable_times": [],
+        "preferred_times": []
+      },
+      {
+        "instructor_id": "FAC-199B7E",
+        "unavailable_times": [],
+        "preferred_times": [
+          "M-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-1EEDBB",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-254F40",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1130"
+        ]
+      },
+      {
+        "instructor_id": "FAC-2F725D",
+        "unavailable_times": [
+          "F-1300"
+        ],
+        "preferred_times": [
+          "F-0900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-3866DB",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-0830",
+          "MW-1000"
+        ]
+      },
+      {
+        "instructor_id": "FAC-3AA389",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-0830"
+        ]
+      },
+      {
+        "instructor_id": "FAC-3E9A01",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1300",
+          "TR-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-54A023",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": [
+          "MW-1000"
+        ]
+      },
+      {
+        "instructor_id": "FAC-58224D",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-74FE08",
+        "unavailable_times": [],
+        "preferred_times": []
+      },
+      {
+        "instructor_id": "FAC-8C28C2",
+        "unavailable_times": [],
+        "preferred_times": []
+      },
+      {
+        "instructor_id": "FAC-9CA2F1",
+        "unavailable_times": [],
+        "preferred_times": [
+          "F-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-9FF710",
+        "unavailable_times": [],
+        "preferred_times": [
+          "M-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-A85586",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1300"
+        ]
+      },
+      {
+        "instructor_id": "FAC-AD8E81",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1130",
+          "MW-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-B145B5",
+        "unavailable_times": [],
+        "preferred_times": [
+          "M-1900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-B8CB85",
+        "unavailable_times": [],
+        "preferred_times": [
+          "R-1900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-C15ED4",
+        "unavailable_times": [
+          "F-0900",
+          "F-1300"
+        ],
+        "preferred_times": [
+          "MW-1130"
+        ]
+      },
+      {
+        "instructor_id": "FAC-CB86E1",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-0830"
+        ]
+      },
+      {
+        "instructor_id": "FAC-E40E25",
+        "unavailable_times": [],
+        "preferred_times": [
+          "TR-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-EF500F",
+        "unavailable_times": [],
+        "preferred_times": [
+          "T-1900"
+        ]
+      },
+      {
+        "instructor_id": "FAC-F335A0",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1430",
+          "MW-1600",
+          "TR-1430"
+        ]
+      },
+      {
+        "instructor_id": "FAC-F71C42",
+        "unavailable_times": [],
+        "preferred_times": []
+      },
+      {
+        "instructor_id": "FAC-F8F4D5",
+        "unavailable_times": [],
+        "preferred_times": [
+          "MW-1600"
+        ]
+      },
+      {
+        "instructor_id": "FAC-FC98C5",
+        "unavailable_times": [],
+        "preferred_times": [
+          "M-1600"
+        ]
+      }
+    ],
+    "global_constraints": [
+      {
+        "type": "cross_list_match",
+        "rule": "same_timeslot",
+        "owner": "College of Performing Arts",
+        "courses": [
+          {
+            "unit": "College of Performing Arts",
+            "course_id": "MUS-461-01"
+          },
+          {
+            "unit": "Crean College of Health and Behavioral Sciences",
+            "course_id": "PSY-461-01"
+          }
+        ]
+      }
+    ],
+    "context": {
+      "unit_code": "COPA",
+      "historical_source": "Derived from Chapman registrar export (Fall 2026); instructor IDs pseudonymized",
+      "notes": "preferred_times reflect each section's historical meeting pattern snapped to the canonical grid"
+    }
+  }
+}

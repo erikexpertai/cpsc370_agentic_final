@@ -74,6 +74,10 @@ connector uses only the Python standard library.
 
 - **Capture traffic** for test cases: add `--save-dir captured/` to `connect.py`.
 - **Several units at once:** connect one agent per unit to the same provost.
+- **Stress-test your agent:** tick **Step mode** before **Start run**. The
+  provost pauses after each phase, and from the **Instructor controls** panel
+  you can inject any disruption or send your agent any `evaluate_change`
+  proposal, including ones that should be rejected.
 
 ## Final integration
 
